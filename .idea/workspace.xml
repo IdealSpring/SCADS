@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SCADS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="2084" column="38" selection-start-line="2084" selection-start-column="38" selection-end-line="2084" selection-end-column="38" />
+              <folding>
+                <element signature="e#73386#73387#0" expanded="true" />
+                <element signature="e#73420#73421#0" expanded="true" />
+                <element signature="e#73629#73630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Hashtable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigableMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/NavigableMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1647">
+              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toString</find>
+      <find>clear</find>
+      <find>forEach</find>
+      <find>HeapComparator</find>
+      <find>this.</find>
+      <find>this.elementData</find>
+      <find>stream</find>
+      <find>find</find>
+      <find>table</find>
+      <find>get</find>
+      <find>get(</find>
+      <find>new TreeNode</find>
+      <find>new Node</find>
+      <find>bt</find>
+      <find>节</find>
+      <find>delete</find>
+      <find>preOrder</find>
+      <find>putVal</find>
+      <find>numLeft</find>
+      <find>treeSuccessor</find>
+      <find>newNode</find>
+      <find>Callbacks to allow LinkedHashMap post-actions</find>
+      <find>afterNodeInsertio</find>
+      <find>removeEldestEntry</find>
+      <find>afterNodeInsertion</find>
+      <find>afterNodeRemoval</find>
+      <find>afterNodeAccess</find>
+      <find>entrySet</find>
+      <find>remove(</find>
+      <find>resize</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>root</replace>
+      <replace>结</replace>
+      <replace>remove</replace>
+      <replace>removeNode</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/GCDemo.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractCollection.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractList.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractSequentialList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/MyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/Moveable.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/AbstractMoveable.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/LandMoveable.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/Demo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/Day01Demo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/ArrayList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/ArrayList扩容原理.txt" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/LinkDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/heap/Heap.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Stack.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/stack/StackDemo.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractSet.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/UserMap.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo2.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day03Demo3.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Map.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractMap.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo3.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTreeMain.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLTreeTest.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/Temp.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLtree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreePractice.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackNode.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Cat.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Animal.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/OtherDemo.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashMap.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="202" />
+    <option name="y" value="70" />
+    <option name="width" value="836" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK1.8.0-src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;TreeMap&#9;PSI&#9;JAVA://java.util.TreeMap&#10;remo&#9;PSI&#9;JAVA://java.rmi.Remote&#10;LruCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;HashMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LinkedHash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedHashMap.java&#10;Linked&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;hashmap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;Hashmap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;compa&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Runnable&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Runnable.java&#10;Thread&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Thread.java&#10;putall&#9;PSI&#9;JAVA://sun.security.action.PutAllAction&#10;hash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;abstractmap&#9;PSI&#9;JAVA://java.util.AbstractMap&#10;arraylis&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/ArrayList.java&#10;sup&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Run&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Hashma&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Arraylist&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/ArrayList.java&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;array&#9;PSI&#9;JAVA://java.lang.reflect.Array&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;abs&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractSequentialList.java&#10;arraylist&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/ArrayList.java&#10;Abstr&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractList.java&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;AbstracSequenti&#9;PSI&#9;JAVA://java.util.AbstractSequentialList&#10;abstractlist&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractList.java&#10;AbstractCollection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractCollection.java&#10;collection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Collection.java&#10;Predicate&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/function/Predicate.java&#10;consumer&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java&#10;Collection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Collection.java&#10;iter&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/lang/Iterable.java&#10;it&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/Iterator.java&#10;Iterator&#9;null&#9;null&#10;Link&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedList.java&#10;AbstractList&#9;PSI&#9;JAVA://java.util.AbstractList&#10;abstractli&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/AbstractList.java&#10;AbstractColl&#9;PSI&#9;JAVA://java.util.AbstractCollection&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayList&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/ArrayList.java&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Scanner&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Scanner.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27471265" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ccut" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\tree" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
+      <recent name="D:\idealU\deeplearning\SCADS" />
+      <recent name="D:\idealU\deeplearning\SCADS\learnJVM\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OtherDemo">
+    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.AVLTreeDemo" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BinarySearchTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.BinarySearchTreeDemo" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="OtherDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.other.OtherDemo" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.algorithm.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.RedBlackTree" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RedBlackTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.RedBlackTreeDemo" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BinarySearchTreeDemo" />
+      <item itemvalue="Application.AVLTreeDemo" />
+      <item itemvalue="Application.RedBlackTree" />
+      <item itemvalue="Application.RedBlackTreeDemo" />
+      <item itemvalue="Application.OtherDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OtherDemo" />
+        <item itemvalue="Application.RedBlackTreeDemo" />
+        <item itemvalue="Application.RedBlackTree" />
+        <item itemvalue="Application.AVLTreeDemo" />
+        <item itemvalue="Application.BinarySearchTreeDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="" />
+      <created>1532913113588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532913113588</updated>
+      <workItem from="1532913137029" duration="1496000" />
+      <workItem from="1532962102110" duration="13084000" />
+      <workItem from="1533113316105" duration="1784000" />
+      <workItem from="1533115182028" duration="3808000" />
+      <workItem from="1533349456611" duration="9679000" />
+      <workItem from="1533430733586" duration="8677000" />
+      <workItem from="1533514771639" duration="1327000" />
+      <workItem from="1533530607163" duration="2910000" />
+      <workItem from="1533553452331" duration="4587000" />
+      <workItem from="1533600477795" duration="12643000" />
+      <workItem from="1533688144705" duration="1630000" />
+      <workItem from="1533720530854" duration="6422000" />
+      <workItem from="1533738778688" duration="13397000" />
+      <workItem from="1533816203500" duration="7707000" />
+      <workItem from="1534380011340" duration="21127000" />
+      <workItem from="1534467144228" duration="18916000" />
+      <workItem from="1534573902118" duration="6065000" />
+      <workItem from="1534596195691" duration="3606000" />
+      <workItem from="1534644025429" duration="15963000" />
+      <workItem from="1534678894619" duration="3516000" />
+      <workItem from="1534724760420" duration="6303000" />
+      <workItem from="1534751175256" duration="1417000" />
+      <workItem from="1534761673284" duration="15840000" />
+      <workItem from="1534826225307" duration="24776000" />
+      <workItem from="1534925531323" duration="1334000" />
+      <workItem from="1535003799530" duration="6418000" />
+      <workItem from="1535073803513" duration="19315000" />
+      <workItem from="1535160653968" duration="5294000" />
+      <workItem from="1535873220813" duration="4421000" />
+      <workItem from="1536055309563" duration="648000" />
+      <workItem from="1536127946042" duration="1810000" />
+      <workItem from="1536219670921" duration="13871000" />
+      <workItem from="1536295940710" duration="1534000" />
+      <workItem from="1536406211621" duration="3972000" />
+      <workItem from="1536471647552" duration="726000" />
+      <workItem from="1536472450590" duration="1995000" />
+      <workItem from="1536475346187" duration="10275000" />
+      <workItem from="1536538890500" duration="8734000" />
+      <workItem from="1536658701057" duration="764000" />
+      <workItem from="1536669642792" duration="662000" />
+      <workItem from="1536671508052" duration="76000" />
+      <workItem from="1536671596503" duration="239000" />
+      <workItem from="1536708566033" duration="28595000" />
+      <workItem from="1536884736789" duration="4056000" />
+      <workItem from="1536973348654" duration="23613000" />
+      <workItem from="1537142613524" duration="19370000" />
+      <workItem from="1537229505535" duration="11362000" />
+      <workItem from="1537312908168" duration="22674000" />
+      <workItem from="1537439168337" duration="8098000" />
+      <workItem from="1537753873641" duration="2923000" />
+      <workItem from="1537764759545" duration="2386000" />
+      <workItem from="1537869095293" duration="605000" />
+      <workItem from="1537873146643" duration="705000" />
+      <workItem from="1537921671760" duration="34000" />
+      <workItem from="1537940888081" duration="10801000" />
+      <workItem from="1538041084021" duration="3056000" />
+      <workItem from="1538096424050" duration="20562000" />
+      <workItem from="1538195489843" duration="603000" />
+      <workItem from="1538217208243" duration="3269000" />
+      <workItem from="1538442789999" duration="5234000" />
+      <workItem from="1538531896665" duration="3659000" />
+      <workItem from="1538818416824" duration="6939000" />
+      <workItem from="1538874833373" duration="11465000" />
+      <workItem from="1538900637956" duration="6956000" />
+      <workItem from="1538964885502" duration="921000" />
+      <workItem from="1538992407714" duration="18190000" />
+      <workItem from="1539173340013" duration="35000" />
+      <workItem from="1539173716291" duration="3425000" />
+      <workItem from="1539216683811" duration="9720000" />
+      <workItem from="1539301096958" duration="525000" />
+      <workItem from="1539310062862" duration="2546000" />
+      <workItem from="1539343429742" duration="3978000" />
+      <workItem from="1539399431545" duration="34227000" />
+      <workItem from="1539564376684" duration="20089000" />
+      <workItem from="1539647980128" duration="595000" />
+      <workItem from="1539751154080" duration="1204000" />
+      <workItem from="1539912595959" duration="73000" />
+      <workItem from="1539943955166" duration="257000" />
+      <workItem from="1539953129344" duration="668000" />
+      <workItem from="1539997964705" duration="2276000" />
+      <workItem from="1540124177273" duration="954000" />
+      <workItem from="1540291028557" duration="3848000" />
+      <workItem from="1540378821233" duration="53701000" />
+      <workItem from="1540710164396" duration="634000" />
+      <workItem from="1540787500270" duration="3067000" />
+      <workItem from="1540798984792" duration="7193000" />
+      <workItem from="1540895428698" duration="5706000" />
+      <workItem from="1540965162548" duration="20387000" />
+      <workItem from="1541116680673" duration="1787000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Day02Demo3_test8 - 2018.09.18 at 21h 08m 58s.xml">
+      <configuration name="Day02Demo3.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day02Demo3_test8 - 2018.09.18 at 21h 10m 57s.xml">
+      <configuration name="Day02Demo3.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day02Demo3_test8 - 2018.09.18 at 21h 44m 01s.xml">
+      <configuration name="Day02Demo3.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day02Demo3_test8 - 2018.09.19 at 19h 01m 42s.xml">
+      <configuration name="Day02Demo3.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day02Demo3_test8 - 2018.09.19 at 19h 02m 05s.xml">
+      <configuration name="Day02Demo3.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_test - 2018.10.06 at 19h 25m 33s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_test - 2018.10.06 at 19h 26m 42s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_test - 2018.10.06 at 20h 06m 41s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_test - 2018.10.06 at 20h 06m 57s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_test - 2018.10.06 at 20h 07m 07s.xml">
+      <configuration name="BinaryTree.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="681739000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.406518" />
+      <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" weight="0.3298969" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38659793" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.46735394" weight="0.17700455" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info active="true" id="Structure" order="7" sideWeight="0.53264606" side_tool="true" visible="true" weight="0.2526475" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5025729" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32933104" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281787" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java</url>
+          <line>803</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="199" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/function/BiConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33426">
+          <caret line="1264" column="16" selection-start-line="1264" selection-start-column="16" selection-end-line="1264" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/AbstractSet.java" />
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/Map.java" />
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/Objects.java" />
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java" />
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/jre/lib/rt.jar!/sun/security/action/PutAllAction.class" />
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/lang/Object.java" />
+    <entry file="jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/HashMap.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1701">
+          <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent</OriginalElement>
+          <nodes>
+            <node x="1206.0" y="485.0">java.util.concurrent.ScheduledFuture</node>
+            <node x="1577.5" y="565.0">java.util.concurrent.RecursiveTask</node>
+            <node x="1512.0" y="875.0">java.util.concurrent.TimeoutException</node>
+            <node x="456.0" y="640.0">java.util.concurrent.CompletionService</node>
+            <node x="180.0" y="485.0">java.util.concurrent.PriorityBlockingQueue</node>
+            <node x="1590.25" y="395.0">java.util.concurrent.Future</node>
+            <node x="1886.5" y="565.0">java.util.concurrent.CountedCompleter</node>
+            <node x="936.0" y="640.0">java.util.concurrent.RejectedExecutionHandler</node>
+            <node x="1228.5" y="565.0">java.util.concurrent.RunnableScheduledFuture</node>
+            <node x="1898.0" y="875.0">java.util.concurrent.ThreadFactory</node>
+            <node x="1151.75" y="395.0">java.util.concurrent.Delayed</node>
+            <node x="169.0" y="950.0">java.util.concurrent.CyclicBarrier</node>
+            <node x="441.0" y="875.0">java.util.concurrent.CancellationException</node>
+            <node x="0.0" y="485.0">java.util.concurrent.SynchronousQueue</node>
+            <node x="0.0" y="720.0">java.util.concurrent.ConcurrentNavigableMap</node>
+            <node x="218.0" y="720.0">java.util.concurrent.ConcurrentHashMap</node>
+            <node x="879.0" y="875.0">java.util.concurrent.CompletionException</node>
+            <node x="1727.5" y="565.0">java.util.concurrent.RecursiveAction</node>
+            <node x="571.0" y="395.0">java.util.concurrent.BlockingQueue</node>
+            <node x="196.125" y="320.0">java.util.concurrent.ScheduledThreadPoolExecutor</node>
+            <node x="221.0" y="875.0">java.util.concurrent.CopyOnWriteArraySet</node>
+            <node x="377.0" y="485.0">java.util.concurrent.LinkedBlockingQueue</node>
+            <node x="807.0" y="950.0">java.util.concurrent.Executors</node>
+            <node x="334.0" y="950.0">java.util.concurrent.locks</node>
+            <node x="1708.0" y="875.0">java.util.concurrent.CountDownLatch</node>
+            <node x="727.0" y="485.0">java.util.concurrent.ArrayBlockingQueue</node>
+            <node x="1923.5" y="395.0">java.util.concurrent.CompletionStage</node>
+            <node x="431.0" y="720.0">java.util.concurrent.ExecutorCompletionService</node>
+            <node x="0.0" y="875.0">java.util.concurrent.CopyOnWriteArrayList</node>
+            <node x="1180.0" y="640.0">java.util.concurrent.ConcurrentLinkedQueue</node>
+            <node x="50.0" y="160.0">java.util.concurrent.AbstractExecutorService</node>
+            <node x="895.0" y="565.0">java.util.concurrent.LinkedTransferQueue</node>
+            <node x="143.0" y="240.0">java.util.concurrent.ThreadPoolExecutor</node>
+            <node x="1877.0" y="640.0">java.util.concurrent.ForkJoinWorkerThread</node>
+            <node x="1446.5" y="565.0">java.util.concurrent.FutureTask</node>
+            <node x="1879.0" y="485.0">java.util.concurrent.CompletableFuture</node>
+            <node x="1100.0" y="950.0">java.util.concurrent.Callable</node>
+            <node x="131.0" y="640.0">java.util.concurrent.ConcurrentMap</node>
+            <node x="682.0" y="640.0">java.util.concurrent.RejectedExecutionException</node>
+            <node x="1095.0" y="875.0">java.util.concurrent.ThreadLocalRandom</node>
+            <node x="1068.0" y="485.0">java.util.concurrent.DelayQueue</node>
+            <node x="257.0" y="160.0">java.util.concurrent.ScheduledExecutorService</node>
+            <node x="180.5" y="80.0">java.util.concurrent.ExecutorService</node>
+            <node x="1398.5" y="485.0">java.util.concurrent.RunnableFuture</node>
+            <node x="1735.0" y="485.0">java.util.concurrent.ForkJoinTask</node>
+            <node x="571.0" y="485.0">java.util.concurrent.BlockingDeque</node>
+            <node x="201.0" y="0.0">java.util.concurrent.Executor</node>
+            <node x="494.0" y="950.0">java.util.concurrent.Semaphore</node>
+            <node x="0.0" y="950.0">java.util.concurrent.atomic</node>
+            <node x="1646.0" y="640.0">java.util.concurrent.BrokenBarrierException</node>
+            <node x="914.0" y="485.0">java.util.concurrent.TransferQueue</node>
+            <node x="1413.0" y="640.0">java.util.concurrent.ConcurrentLinkedDeque</node>
+            <node x="1308.0" y="875.0">java.util.concurrent.ExecutionException</node>
+            <node x="956.0" y="950.0">java.util.concurrent.TimeUnit</node>
+            <node x="7.5" y="800.0">java.util.concurrent.ConcurrentSkipListMap</node>
+            <node x="660.0" y="875.0">java.util.concurrent.ConcurrentSkipListSet</node>
+            <node x="0.0" y="240.0">java.util.concurrent.ForkJoinPool</node>
+            <node x="1239.0" y="950.0">java.util.concurrent.Phaser</node>
+            <node x="552.0" y="565.0">java.util.concurrent.LinkedBlockingDeque</node>
+            <node x="654.0" y="950.0">java.util.concurrent.Exchanger</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Delayed">
+              <point x="-36.0" y="-15.0" />
+              <point x="1242.0" y="465.0" />
+              <point x="1223.0" y="465.0" />
+              <point x="23.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="80.0" y="445.0" />
+              <point x="580.7142857142858" y="445.0" />
+              <point x="-58.28571428571422" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="143.5" y="135.0" />
+              <point x="215.25" y="135.0" />
+              <point x="-34.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ForkJoinPool" target="java.util.concurrent.AbstractExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="61.5" y="215.0" />
+              <point x="96.75" y="215.0" />
+              <point x="-46.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.RecursiveTask" target="java.util.concurrent.ForkJoinTask">
+              <point x="0.0" y="-15.0" />
+              <point x="1642.5" y="540.0" />
+              <point x="1755.6666666666667" y="540.0" />
+              <point x="-41.33333333333326" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ExecutorCompletionService" target="java.util.concurrent.CompletionService">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ScheduledExecutorService">
+              <point x="56.25" y="-15.0" />
+              <point x="364.875" y="295.0" />
+              <point x="356.5" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.CountedCompleter" target="java.util.concurrent.ForkJoinTask">
+              <point x="0.0" y="-15.0" />
+              <point x="1965.5" y="540.0" />
+              <point x="1838.3333333333333" y="540.0" />
+              <point x="41.33333333333326" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="810.5" y="465.0" />
+              <point x="658.4285714285714" y="465.0" />
+              <point x="19.428571428571445" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.concurrent.TransferQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.RunnableFuture">
+              <point x="49.5" y="-15.0" />
+              <point x="1377.0" y="540.0" />
+              <point x="1433.0" y="540.0" />
+              <point x="-34.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="268.5" y="455.0" />
+              <point x="600.1428571428571" y="455.0" />
+              <point x="-38.85714285714289" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.CompletionStage">
+              <point x="39.5" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.concurrent.ConcurrentMap">
+              <point x="0.0" y="-15.0" />
+              <point x="302.0" y="695.0" />
+              <point x="235.25" y="695.0" />
+              <point x="34.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.Delayed">
+              <point x="29.5" y="-15.0" />
+              <point x="1156.5" y="465.0" />
+              <point x="1175.5" y="465.0" />
+              <point x="-23.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.RunnableFuture" target="java.util.concurrent.Future">
+              <point x="0.0" y="-15.0" />
+              <point x="1467.5" y="465.0" />
+              <point x="1621.75" y="465.0" />
+              <point x="-10.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ThreadPoolExecutor" target="java.util.concurrent.AbstractExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="225.5" y="215.0" />
+              <point x="190.25" y="215.0" />
+              <point x="46.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.TransferQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="981.0" y="455.0" />
+              <point x="677.8571428571429" y="455.0" />
+              <point x="38.85714285714289" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Future">
+              <point x="36.0" y="-15.0" />
+              <point x="1314.0" y="455.0" />
+              <point x="1600.75" y="455.0" />
+              <point x="-31.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.concurrent.BlockingDeque">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.concurrent.ConcurrentNavigableMap">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ForkJoinTask" target="java.util.concurrent.Future">
+              <point x="0.0" y="-15.0" />
+              <point x="1797.0" y="465.0" />
+              <point x="1642.75" y="465.0" />
+              <point x="10.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.FutureTask" target="java.util.concurrent.RunnableFuture">
+              <point x="0.0" y="-15.0" />
+              <point x="34.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="-29.5" y="-15.0" />
+              <point x="1097.5" y="445.0" />
+              <point x="697.2857142857143" y="445.0" />
+              <point x="58.285714285714334" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledExecutorService" target="java.util.concurrent.ExecutorService">
+              <point x="0.0" y="-15.0" />
+              <point x="356.5" y="135.0" />
+              <point x="284.75" y="135.0" />
+              <point x="34.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ThreadPoolExecutor">
+              <point x="-56.25" y="-15.0" />
+              <point x="252.375" y="295.0" />
+              <point x="225.5" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.ScheduledFuture">
+              <point x="-49.5" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.Future">
+              <point x="-39.5" y="-15.0" />
+              <point x="1918.5" y="455.0" />
+              <point x="1663.75" y="455.0" />
+              <point x="31.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-15.0" />
+              <point x="464.0" y="465.0" />
+              <point x="619.5714285714286" y="465.0" />
+              <point x="-19.428571428571445" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.concurrent.ConcurrentMap">
+              <point x="0.0" y="-15.0" />
+              <point x="99.0" y="695.0" />
+              <point x="165.75" y="695.0" />
+              <point x="-34.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.RecursiveAction" target="java.util.concurrent.ForkJoinTask">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.498565965583174" x="471.0" y="440.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Queue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Queue</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.Queue</node>
+            <node x="" y="">java.lang.Iterable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLTreeTest.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/Temp.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLtree.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreePractice.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5211">
+          <caret line="211" selection-start-line="211" selection-end-line="226" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackTree.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RandomNum.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackNode.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/EuclideanAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="429" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="203" column="44" lean-forward="true" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/LRUCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="1913" column="26" selection-start-line="1913" selection-start-column="26" selection-end-line="1913" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/rmi/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Cat.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Animal.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/OtherDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="676" column="28" selection-start-line="676" selection-start-column="22" selection-end-line="676" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/NavigableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="2084" column="38" selection-start-line="2084" selection-start-column="38" selection-end-line="2084" selection-end-column="38" />
+          <folding>
+            <element signature="e#73386#73387#0" expanded="true" />
+            <element signature="e#73420#73421#0" expanded="true" />
+            <element signature="e#73629#73630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>learnrecord</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
