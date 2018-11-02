@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="" />
+    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,6 +99,9 @@
       <replace>removeNode</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java" root0="SKIP_INSPECTION" />
@@ -184,6 +189,7 @@
     <option name="width" value="836" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -495,7 +501,7 @@
       <workItem from="1540798984792" duration="7193000" />
       <workItem from="1540895428698" duration="5706000" />
       <workItem from="1540965162548" duration="20387000" />
-      <workItem from="1541116680673" duration="1787000" />
+      <workItem from="1541116680673" duration="1944000" />
     </task>
     <servers />
   </component>
@@ -532,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="681739000" />
+    <option name="totallyTimeSpent" value="681896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -548,7 +554,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38659793" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="1" />
