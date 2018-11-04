@@ -2534,11 +2534,13 @@ public class TreeMap<K,V>
      * @throws ClassNotFoundException propagated from readObject.
      *         This cannot occur if str is null.
      */
+    // 线性时间树构建算法来自排序数据
     private void buildFromSorted(int size, Iterator<?> it,
                                  java.io.ObjectInputStream str,
                                  V defaultVal)
         throws  java.io.IOException, ClassNotFoundException {
         this.size = size;
+        // 使用buildFromSorted构建出根节点
         root = buildFromSorted(0, 0, size-1, computeRedLevel(size),
                                it, str, defaultVal);
     }
@@ -2571,29 +2573,39 @@ public class TreeMap<K,V>
          * subtree.
          *
          * The lo and hi arguments are the minimum and maximum
-         * indices to pull out of the iterator or stream for current subtree.
+         *  to pull out of the iterator or stream for current subtree.
          * They are not actually indexed, we just proceed sequentially,
          * ensuring that items are extracted in corresponding order.
          */
 
-        if (hi < lo) return null;
+        /**
+         * 策略：树的根节点是参数map集合最中间的元素。为了得到它，我们必须
+         * 先递归构建根节点的整个左子分支，以便抓住它的所有元素。然后继续
+         * 去构建右子分支。
+         * 低位lo和高位hi参数是最小和最大值用于迭代遍历。他们不是
+         * 真正的索引，只是顺序进行，确保提取的顺序与之相对应。
+         */
 
-        int mid = (lo + hi) >>> 1;
+        if (hi < lo) return null;   // 此方法的递归结束条件，低位大于等于高位结束
 
-        Entry<K,V> left  = null;
-        if (lo < mid)
+        int mid = (lo + hi) >>> 1;  // 无符号右移一位，等同于除2。计算机的位移操作比%2操作效率高
+
+        Entry<K,V> left  = null;    // 左子树指针
+        if (lo < mid)   // 当低位小于等于中间值时，递归循环构建 左子分支
             left = buildFromSorted(level+1, lo, mid - 1, redLevel,
                                    it, str, defaultVal);
 
         // extract key and/or value from iterator or stream
         K key;
         V value;
+
+        // 如果遍历器不为空，则使用遍历器；否则使用流；
         if (it != null) {
-            if (defaultVal==null) {
-                Map.Entry<?,?> entry = (Map.Entry<?,?>)it.next();
-                key = (K)entry.getKey();
-                value = (V)entry.getValue();
-            } else {
+            if (defaultVal==null) { // 默认值为空
+                Map.Entry<?,?> entry = (Map.Entry<?,?>)it.next();   // 获取entry
+                key = (K)entry.getKey();    // 获取键
+                value = (V)entry.getValue();    // 获取值
+            } else {    // 默认值不为空，使用默认值
                 key = (K)it.next();
                 value = defaultVal;
             }
@@ -2602,18 +2614,19 @@ public class TreeMap<K,V>
             value = (defaultVal != null ? defaultVal : (V) str.readObject());
         }
 
+        // 根据键值创建节点
         Entry<K,V> middle =  new Entry<>(key, value, null);
 
         // color nodes in non-full bottommost level red
-        if (level == redLevel)
+        if (level == redLevel)  // 如果为红色层，则将节点变为红色。默认是黑色
             middle.color = RED;
 
-        if (left != null) {
+        if (left != null) { // 左子树不为空，则链接上
             middle.left = left;
             left.parent = middle;
         }
 
-        if (mid < hi) {
+        if (mid < hi) { // 递归遍历，得到右子树
             Entry<K,V> right = buildFromSorted(level+1, mid+1, hi, redLevel,
                                                it, str, defaultVal);
             middle.right = right;
