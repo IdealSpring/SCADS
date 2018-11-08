@@ -93,15 +93,19 @@ public class HashSet<E>
 {
     static final long serialVersionUID = -5024744406713321676L;
 
+    // HashMap用于存储操作，HashSet底层封装类对象
     private transient HashMap<E,Object> map;
 
     // Dummy value to associate with an Object in the backing Map
+    // 与支持Map中的Object关联的虚拟值
     private static final Object PRESENT = new Object();
 
     /**
      * Constructs a new, empty set; the backing <tt>HashMap</tt> instance has
      * default initial capacity (16) and load factor (0.75).
      */
+    // 无参构造
+    // 创建封装的HashMap
     public HashSet() {
         map = new HashMap<>();
     }
@@ -115,8 +119,11 @@ public class HashSet<E>
      * @param c the collection whose elements are to be placed into this set
      * @throws NullPointerException if the specified collection is null
      */
+    // 使用集合作为参数构造本集合
     public HashSet(Collection<? extends E> c) {
+        // 创建封装对象HashMap, 参数为c的大小和16中最大的值
         map = new HashMap<>(Math.max((int) (c.size()/.75f) + 1, 16));
+        // 使用AbstractCollection的addAll方法，它是循环遍历调用add方法实现添加元素
         addAll(c);
     }
 
@@ -129,6 +136,8 @@ public class HashSet<E>
      * @throws     IllegalArgumentException if the initial capacity is less
      *             than zero, or if the load factor is nonpositive
      */
+    // 带参构造
+    // 指定初始容量和加载因子
     public HashSet(int initialCapacity, float loadFactor) {
         map = new HashMap<>(initialCapacity, loadFactor);
     }
@@ -141,6 +150,8 @@ public class HashSet<E>
      * @throws     IllegalArgumentException if the initial capacity is less
      *             than zero
      */
+    // 带参构造
+    // 指定处事容量
     public HashSet(int initialCapacity) {
         map = new HashMap<>(initialCapacity);
     }
@@ -158,6 +169,7 @@ public class HashSet<E>
      * @throws     IllegalArgumentException if the initial capacity is less
      *             than zero, or if the load factor is nonpositive
      */
+    // 带参构造
     HashSet(int initialCapacity, float loadFactor, boolean dummy) {
         map = new LinkedHashMap<>(initialCapacity, loadFactor);
     }
@@ -169,7 +181,9 @@ public class HashSet<E>
      * @return an Iterator over the elements in this set
      * @see ConcurrentModificationException
      */
+    // 获取迭代器
     public Iterator<E> iterator() {
+        // 获取HashMap的键的Set集合的迭代器
         return map.keySet().iterator();
     }
 
@@ -179,6 +193,7 @@ public class HashSet<E>
      * @return the number of elements in this set (its cardinality)
      */
     public int size() {
+        // 调用HashMap的size方法获取
         return map.size();
     }
 
@@ -188,6 +203,7 @@ public class HashSet<E>
      * @return <tt>true</tt> if this set contains no elements
      */
     public boolean isEmpty() {
+        // 调用HashMap的isEmpty
         return map.isEmpty();
     }
 
@@ -201,6 +217,7 @@ public class HashSet<E>
      * @return <tt>true</tt> if this set contains the specified element
      */
     public boolean contains(Object o) {
+        // 调用HashMap的containsKey获取
         return map.containsKey(o);
     }
 
@@ -217,6 +234,7 @@ public class HashSet<E>
      * element
      */
     public boolean add(E e) {
+        // 调用HashMap的put方法添加元素
         return map.put(e, PRESENT)==null;
     }
 
@@ -232,7 +250,9 @@ public class HashSet<E>
      * @param o object to be removed from this set, if present
      * @return <tt>true</tt> if the set contained the specified element
      */
+    // 移除指定的元素o
     public boolean remove(Object o) {
+        // 调用HashMap的remove方法
         return map.remove(o)==PRESENT;
     }
 
@@ -240,7 +260,9 @@ public class HashSet<E>
      * Removes all of the elements from this set.
      * The set will be empty after this call returns.
      */
+    // 删除所有元素
     public void clear() {
+        // 调用的HashMap的clear方法
         map.clear();
     }
 

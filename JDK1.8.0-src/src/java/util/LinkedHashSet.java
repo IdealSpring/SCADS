@@ -130,6 +130,13 @@ public class LinkedHashSet<E>
      * @throws     IllegalArgumentException  if the initial capacity is less
      *               than zero, or if the load factor is nonpositive
      */
+    /**
+     * 构造一个带有指定初始容量和加载因子的新空链接哈希set。
+     *
+     * 底层会调用父类的构造方法，构造一个有指定初始容量和加载因子的LinkedHashMap实例。
+     * @param initialCapacity 初始容量。
+     * @param loadFactor 加载因子。
+     */
     public LinkedHashSet(int initialCapacity, float loadFactor) {
         super(initialCapacity, loadFactor, true);
     }
@@ -142,6 +149,12 @@ public class LinkedHashSet<E>
      * @throws  IllegalArgumentException if the initial capacity is less
      *              than zero
      */
+    /**
+     * 构造一个带指定初始容量和默认加载因子0.75的新空链接哈希set。
+     *
+     * 底层会调用父类的构造方法，构造一个带指定初始容量和默认加载因子0.75的LinkedHashMap实例。
+     * @param initialCapacity 初始容量。
+     */
     public LinkedHashSet(int initialCapacity) {
         super(initialCapacity, .75f, true);
     }
@@ -149,6 +162,11 @@ public class LinkedHashSet<E>
     /**
      * Constructs a new, empty linked hash set with the default initial
      * capacity (16) and load factor (0.75).
+     */
+    /**
+     * 构造一个带默认初始容量16和加载因子0.75的新空链接哈希set。
+     *
+     * 底层会调用父类的构造方法，构造一个带默认初始容量16和加载因子0.75的LinkedHashMap实例。
      */
     public LinkedHashSet() {
         super(16, .75f, true);
@@ -163,6 +181,13 @@ public class LinkedHashSet<E>
      * @param c  the collection whose elements are to be placed into
      *           this set
      * @throws NullPointerException if the specified collection is null
+     */
+    /**
+     * 构造一个与指定collection中的元素相同的新链接哈希set。
+     *
+     * 底层会调用父类的构造方法，构造一个足以包含指定collection
+     * 中所有元素的初始容量和加载因子为0.75的LinkedHashMap实例。
+     * @param c 其中的元素将存放在此set中的collection。
      */
     public LinkedHashSet(Collection<? extends E> c) {
         super(Math.max(2*c.size(), 11), .75f, true);

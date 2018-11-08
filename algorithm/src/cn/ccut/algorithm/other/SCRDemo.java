@@ -13,7 +13,6 @@ public class SCRDemo {
         treeMap1.put(13, 13);
         treeMap1.put(16, 16);
 
-        TreeMap<Integer, Integer> treeMap2 = new TreeMap<>();
-        treeMap2.putAll(treeMap1);
+        treeMap1.remove(10);
     }
 }
