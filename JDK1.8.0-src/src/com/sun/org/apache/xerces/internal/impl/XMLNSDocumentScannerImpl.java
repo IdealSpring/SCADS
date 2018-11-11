@@ -211,7 +211,7 @@ public class XMLNSDocumentScannerImpl
             fElementStack.matchElement(fElementQName);
         }
 
-        //xxx: We dont need another pointer, fCurrentElement, we can use fElementQName
+        //simplefactory: We dont need another pointer, fCurrentElement, we can use fElementQName
         fCurrentElement = fElementQName;
 
         String rawname = fElementQName.rawname;

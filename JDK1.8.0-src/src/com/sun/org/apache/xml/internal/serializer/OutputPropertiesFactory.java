@@ -355,9 +355,9 @@ public final class OutputPropertiesFactory
 
     /**
      * Load the properties file from a resource stream.  If a
-     * key name such as "org.apache.xslt.xxx", fix up the start of
+     * key name such as "org.apache.xslt.simplefactory", fix up the start of
      * string to be a curly namespace.  If a key name starts with
-     * "xslt.output.xxx", clip off "xslt.output.".  If a key name *or* a
+     * "xslt.output.simplefactory", clip off "xslt.output.".  If a key name *or* a
      * key value is discovered, check for \u003a in the text, and
      * fix it up to be ":", since earlier versions of the JDK do not
      * handle the escape sequence (at least in key names).

@@ -95,14 +95,17 @@ public class TreeSet<E> extends AbstractSet<E>
     /**
      * The backing map.
      */
+    // 存放元素的Map，必须是实现了NavigableMap接口的类
     private transient NavigableMap<E,Object> m;
 
     // Dummy value to associate with an Object in the backing Map
+    // 一个虚拟值，用于添加元素到map中时，key为元素的值，value用此虚拟值代替
     private static final Object PRESENT = new Object();
 
     /**
      * Constructs a set backed by the specified navigable map.
      */
+    // 自定义实现了NavigableMap接口的Map来作为实现
     TreeSet(NavigableMap<E,Object> m) {
         this.m = m;
     }
@@ -120,6 +123,7 @@ public class TreeSet<E> extends AbstractSet<E>
      * integers), the {@code add} call will throw a
      * {@code ClassCastException}.
      */
+    // 默认构造方法用TreeMap来实现
     public TreeSet() {
         this(new TreeMap<E,Object>());
     }
@@ -137,6 +141,9 @@ public class TreeSet<E> extends AbstractSet<E>
      *        If {@code null}, the {@linkplain Comparable natural
      *        ordering} of the elements will be used.
      */
+    // 以定制排序方式创建一个新的 TreeMap，
+    // 根据该 TreeSet 创建一个 TreeSet，
+    // 使用该 TreeMap 的 key 来保存 Set 集合的元素
     public TreeSet(Comparator<? super E> comparator) {
         this(new TreeMap<>(comparator));
     }
@@ -155,8 +162,11 @@ public class TreeSet<E> extends AbstractSet<E>
      *         not {@link Comparable}, or are not mutually comparable
      * @throws NullPointerException if the specified collection is null
      */
+    //使用参数集合的元素构造本集合
     public TreeSet(Collection<? extends E> c) {
+        // 无参构造器创建一个TreeSet，底层以TreeMap保存集合元素
         this();
+        // 向TreeSet中添加Collection集合c里的所有元素
         addAll(c);
     }
 
@@ -167,8 +177,11 @@ public class TreeSet<E> extends AbstractSet<E>
      * @param s sorted set whose elements will comprise the new set
      * @throws NullPointerException if the specified sorted set is null
      */
+    // 使用SorteSet子类构造本集合
     public TreeSet(SortedSet<E> s) {
+        // 调用带比较器参数的构造器创建衣蛾TreeSet，底层以TreeMap保存集合元素
         this(s.comparator());
+        // 向TreeSet中添加SortedSet集合s里的所有元素
         addAll(s);
     }
 
@@ -178,6 +191,7 @@ public class TreeSet<E> extends AbstractSet<E>
      * @return an iterator over the elements in this set in ascending order
      */
     public Iterator<E> iterator() {
+        // 调用TreeMap方法清除
         return m.navigableKeySet().iterator();
     }
 
@@ -251,7 +265,9 @@ public class TreeSet<E> extends AbstractSet<E>
      *         and this set uses natural ordering, or its comparator
      *         does not permit null elements
      */
+    // 添加元素
     public boolean add(E e) {
+        // 调用TreeMap的put方法添加
         return m.put(e, PRESENT)==null;
     }
 
@@ -272,7 +288,9 @@ public class TreeSet<E> extends AbstractSet<E>
      *         and this set uses natural ordering, or its comparator
      *         does not permit null elements
      */
+    // 移除参数元素
     public boolean remove(Object o) {
+        // 调用TreeMap方法清除
         return m.remove(o)==PRESENT;
     }
 
@@ -280,7 +298,9 @@ public class TreeSet<E> extends AbstractSet<E>
      * Removes all of the elements from this set.
      * The set will be empty after this call returns.
      */
+    // 清空集合所有元素
     public void clear() {
+        // 调用TreeMap方法清除
         m.clear();
     }
 
@@ -295,21 +315,23 @@ public class TreeSet<E> extends AbstractSet<E>
      *         if any element is null and this set uses natural ordering, or
      *         its comparator does not permit null elements
      */
+    // 将参数集合中所有元素添加到本集合中
     public  boolean addAll(Collection<? extends E> c) {
         // Use linear-time version if applicable
+        // 条件：本集合为空、参数集合有元素、参数集合是SortedSet类型、m是TreeMap类型
         if (m.size()==0 && c.size() > 0 &&
             c instanceof SortedSet &&
             m instanceof TreeMap) {
             SortedSet<? extends E> set = (SortedSet<? extends E>) c;
             TreeMap<E,Object> map = (TreeMap<E, Object>) m;
-            Comparator<?> cc = set.comparator();
-            Comparator<? super E> mc = map.comparator();
-            if (cc==mc || (cc != null && cc.equals(mc))) {
-                map.addAllForTreeSet(set, PRESENT);
+            Comparator<?> cc = set.comparator();    // 获取比较器
+            Comparator<? super E> mc = map.comparator();    // 获取比较器
+            if (cc==mc || (cc != null && cc.equals(mc))) {  // 如果本集合比较器和参数集合比较器相同
+                map.addAllForTreeSet(set, PRESENT); // 使用TreeMap的addAllForTreeSet方法将参数集合所有元素添加到本集合
                 return true;
             }
         }
-        return super.addAll(c);
+        return super.addAll(c); // 不满足上诉条件，则调用AbstractCollection超类的addAll方法添加
     }
 
     /**
@@ -391,6 +413,7 @@ public class TreeSet<E> extends AbstractSet<E>
      * @throws NoSuchElementException {@inheritDoc}
      */
     public E first() {
+        // 调用TreeMap方法清除
         return m.firstKey();
     }
 
@@ -398,6 +421,7 @@ public class TreeSet<E> extends AbstractSet<E>
      * @throws NoSuchElementException {@inheritDoc}
      */
     public E last() {
+        // 调用TreeMap方法清除
         return m.lastKey();
     }
 

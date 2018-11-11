@@ -287,7 +287,7 @@ public class XMLDocumentFragmentScannerImpl
 
     protected String fPITarget ;
 
-    //xxx do we need to create an extra XMLString object... look for using fTempString for collecting all the data values
+    //simplefactory do we need to create an extra XMLString object... look for using fTempString for collecting all the data values
     protected XMLString fPIData  = new XMLString();
 
     // features
@@ -479,7 +479,7 @@ public class XMLDocumentFragmentScannerImpl
                 case XMLStreamConstants.CDATA:
                     fEntityScanner.checkNodeCount(fEntityScanner.fCurrentEntity);
                     fDocumentHandler.startCDATA(null);
-                    //xxx: check if CDATA values comes from getCharacterData() function
+                    //simplefactory: check if CDATA values comes from getCharacterData() function
                     fDocumentHandler.characters(getCharacterData(),null);
                     fDocumentHandler.endCDATA(null);
                     //System.out.println(" in CDATA of the XMLNSDocumentScannerImpl");
@@ -573,7 +573,7 @@ public class XMLDocumentFragmentScannerImpl
 
         //attribute
         fReadingAttributes = false;
-        //xxx: external entities are supported in Xerces
+        //simplefactory: external entities are supported in Xerces
         // it would be good to define feature for this case
         fSupportExternalEntities = true;
         fReplaceEntityReferences = true;
@@ -956,7 +956,7 @@ public class XMLDocumentFragmentScannerImpl
         // set standalone
         fStandaloneSet = standalone != null;
         fStandalone = fStandaloneSet && standalone.equals("yes");
-        ///xxx see where its used.. this is not used anywhere. it may be useful for entity to store this information
+        ///simplefactory see where its used.. this is not used anywhere. it may be useful for entity to store this information
         //but this information is only related with Document Entity.
         fEntityManager.setStandalone(fStandalone);
 
@@ -1038,7 +1038,7 @@ public class XMLDocumentFragmentScannerImpl
 
     } // scanComment()
 
-    //xxx value returned by this function may not remain valid if another event is scanned.
+    //simplefactory value returned by this function may not remain valid if another event is scanned.
     public String getComment(){
         return fContentBuffer.toString();
     }
@@ -1174,7 +1174,7 @@ public class XMLDocumentFragmentScannerImpl
 
             }
         }
-        //xxx: we can put some logic here as from what column it should start looking
+        //simplefactory: we can put some logic here as from what column it should start looking
         //for now we always start at 0
         //fallback to tolerant algorithm, it would look for differnt element stored at different
         //depth and get us the pointer location.
@@ -1296,7 +1296,7 @@ public class XMLDocumentFragmentScannerImpl
         }
 
 
-        //xxx: We dont need another pointer, fCurrentElement, we can use fElementQName
+        //simplefactory: We dont need another pointer, fCurrentElement, we can use fElementQName
         fCurrentElement = fElementQName;
 
         String rawname = fElementQName.rawname;
@@ -1449,7 +1449,7 @@ public class XMLDocumentFragmentScannerImpl
      * // content
      * int oldLen = attributes.getLength();
      */
-    /**xxx there is one check of duplicate attribute that has been removed.
+    /**simplefactory there is one check of duplicate attribute that has been removed.
      * attributes.addAttribute(fAttributeQName, XMLSymbols.fCDATASymbol, null);
      *
      * // WFC: Unique Att Spec
@@ -1566,7 +1566,7 @@ public class XMLDocumentFragmentScannerImpl
         //we are passing null as the attribute value
         attributes.setValue(attIndex, null, tmpStr);
 
-        ///xxx: nonNormalizedValue is not being set as it is not required by SAX & DOM
+        ///simplefactory: nonNormalizedValue is not being set as it is not required by SAX & DOM
         //attributes.setNonNormalizedValue(oldLen, fTempString2.toString());
         attributes.setSpecified(attIndex, true);
 
@@ -1593,13 +1593,13 @@ public class XMLDocumentFragmentScannerImpl
         fTempString.length = 0;
         if (c == '\r') {
             // happens when there is the character reference &#13;
-            //xxx: We know the next chracter.. we should just skip it and add ']' directlry
+            //simplefactory: We know the next chracter.. we should just skip it and add ']' directlry
             fEntityScanner.scanChar(null);
             content.append((char)c);
             c = -1;
         } else if (c == ']') {
             //fStringBuffer.clear();
-            //xxx: We know the next chracter.. we should just skip it and add ']' directlry
+            //simplefactory: We know the next chracter.. we should just skip it and add ']' directlry
             content.append((char)fEntityScanner.scanChar(null));
             // remember where we are in case we get an endEntity before we
             // could flush the buffer out - this happens when we're parsing an
@@ -1819,7 +1819,7 @@ public class XMLDocumentFragmentScannerImpl
                     augs = fTempAugmentations;
                     augs.putItem(Constants.CHAR_REF_PROBABLE_WS, Boolean.TRUE);
                 }
-                //xxx: How do we deal with this - how to return charReferenceValues
+                //simplefactory: How do we deal with this - how to return charReferenceValues
                 //now this is being commented because this is taken care in scanDocument()
                 //fDocumentHandler.characters(fStringBuffer2, null);
                 if (fNotifyCharRefs) {
@@ -2218,7 +2218,7 @@ public class XMLDocumentFragmentScannerImpl
                 fShouldSkip = false;
                 fAdd = false;
                 if(DEBUG_SKIP_ALGORITHM)System.out.println("SKIPPING STOPPED, fShouldSkip = " + fShouldSkip);
-                //xxx: this is not correct, we are returning the last element
+                //simplefactory: this is not correct, we are returning the last element
                 //this wont make any difference since flag has been set to 'false'
                 return fQName[--fCount];
             }
@@ -2418,7 +2418,7 @@ public class XMLDocumentFragmentScannerImpl
             }
 
             //if number of elements becomes equal to the length of array -- stop the skipping
-            //xxx: should we do "fCount == fInt.length"
+            //simplefactory: should we do "fCount == fInt.length"
             if (fCount == fElements.length) {
                 fSkip = false;
                 fAdd = false;
@@ -2750,7 +2750,7 @@ public class XMLDocumentFragmentScannerImpl
                             return XMLEvent.CHARACTERS;
                         }
                     }//if last section was CDATA or ENTITY REFERENCE
-                    //xxx: there might be another entity reference or CDATA after this
+                    //simplefactory: there might be another entity reference or CDATA after this
                     //<foo>blah blah &amp;&lt;<![CDATA[[aa]]>blah blah</foo>
                     else if((fLastSectionWasCData || fLastSectionWasEntityReference)){
                         //and current state is not SCANNER_STATE_CHARACTER_DATA
@@ -2779,7 +2779,7 @@ public class XMLDocumentFragmentScannerImpl
 
                     case SCANNER_STATE_START_ELEMENT_TAG :{
 
-                        //xxx this function returns true when element is empty.. can be linked to end element event.
+                        //simplefactory this function returns true when element is empty.. can be linked to end element event.
                         //returns true if the element is empty
                         fEmptyElement = scanStartElement() ;
                         //if the element is empty the next event is "end element"
@@ -2869,14 +2869,14 @@ public class XMLDocumentFragmentScannerImpl
                                 System.out.println("'\r' character found");
                             }
                             // happens when there is the character reference &#13;
-                            //xxx: We know the next chracter.. we should just skip it and add ']' directlry
+                            //simplefactory: We know the next chracter.. we should just skip it and add ']' directlry
                             fEntityScanner.scanChar(null);
                             fUsebuffer = true;
                             fContentBuffer.append((char)c);
                             c = -1 ;
                         } else if (c == ']') {
                             //fStringBuffer.clear();
-                            //xxx: We know the next chracter.. we should just skip it and add ']' directlry
+                            //simplefactory: We know the next chracter.. we should just skip it and add ']' directlry
                             fUsebuffer = true;
                             fContentBuffer.append((char)fEntityScanner.scanChar(null));
                             // remember where we are in case we get an endEntity before we
@@ -2901,19 +2901,19 @@ public class XMLDocumentFragmentScannerImpl
                         }
 
                         do{
-                            //xxx: we should be using only one buffer..
+                            //simplefactory: we should be using only one buffer..
                             // we need not to grow the buffer only when isCoalesce() is not true;
 
                             if (c == '<') {
                                 fEntityScanner.scanChar(null);
                                 setScannerState(SCANNER_STATE_START_OF_MARKUP);
                                 break;
-                            }//xxx what should be the behavior if entity reference is present in the content ?
+                            }//simplefactory what should be the behavior if entity reference is present in the content ?
                             else if (c == '&') {
                                 fEntityScanner.scanChar(NameType.REFERENCE);
                                 setScannerState(SCANNER_STATE_REFERENCE);
                                 break;
-                            }///xxx since this part is also characters, it should be merged...
+                            }///simplefactory since this part is also characters, it should be merged...
                             else if (c != -1 && isInvalidLiteral(c)) {
                                 if (XMLChar.isHighSurrogate(c)) {
                                     // special case: surrogates
@@ -2927,7 +2927,7 @@ public class XMLDocumentFragmentScannerImpl
                                 }
                                 break;
                             }
-                            //xxx: scanContent also gives character callback.
+                            //simplefactory: scanContent also gives character callback.
                             c = scanContent(fContentBuffer) ;
                             //we should not be iterating again if fIsCoalesce is not set to true
 
@@ -2969,7 +2969,7 @@ public class XMLDocumentFragmentScannerImpl
                             if (elementDepthIsZeroHook()) {
                                 //if element depth is zero , it indicates the end of the document
                                 //the state shouldn't be set, because it is set by elementDepthIsZeroHook() function
-                                //xxx understand this point once again..
+                                //simplefactory understand this point once again..
                                 return XMLEvent.END_ELEMENT ;
                             }
 
@@ -2987,16 +2987,16 @@ public class XMLDocumentFragmentScannerImpl
                     case SCANNER_STATE_PI:{ //SCANNER_STATE_PI: {
                         //clear the buffer first
                         fContentBuffer.clear() ;
-                        //xxx: which buffer should be passed. Ideally we shouldn't have
+                        //simplefactory: which buffer should be passed. Ideally we shouldn't have
                         //more than two buffers --
-                        //xxx: where should we add the switch for buffering.
+                        //simplefactory: where should we add the switch for buffering.
                         scanPI(fContentBuffer);
                         setScannerState(SCANNER_STATE_CONTENT);
                         return XMLEvent.PROCESSING_INSTRUCTION;
                         //break;
                     }
                     case SCANNER_STATE_CDATA :{ //SCANNER_STATE_CDATA: {
-                        //xxx: What if CDATA is the first event
+                        //simplefactory: What if CDATA is the first event
                         //<foo><![CDATA[hello<><>]]>append</foo>
 
                         //we should not clear the buffer only when the last state was either SCANNER_STATE_REFERENCE or
@@ -3114,14 +3114,14 @@ public class XMLDocumentFragmentScannerImpl
 
                             // standard text declaration
                             else {
-                                //xxx: this function gives callback
+                                //simplefactory: this function gives callback
                                 scanXMLDeclOrTextDecl(true);
                             }
                         }
                         // now that we've straightened out the readers, we can read in chunks:
                         fEntityManager.fCurrentEntity.mayReadChunks = true;
                         setScannerState(SCANNER_STATE_CONTENT);
-                        //xxx: we don't return any state, so how do we get to know about TEXT declarations.
+                        //simplefactory: we don't return any state, so how do we get to know about TEXT declarations.
                         //it seems we have to careful when to allow function issue a callback
                         //and when to allow adapter issue a callback.
                         continue;

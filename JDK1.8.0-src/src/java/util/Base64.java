@@ -913,7 +913,7 @@ public class Base64 {
                     if (nextin != 18) {
                         if (nextin == 12)
                             throw new IOException("Base64 stream has one un-decoded dangling byte.");
-                        // treat ending xx/xxx without padding character legal.
+                        // treat ending xx/simplefactory without padding character legal.
                         // same logic as v == '=' below
                         b[off++] = (byte)(bits >> (16));
                         len--;

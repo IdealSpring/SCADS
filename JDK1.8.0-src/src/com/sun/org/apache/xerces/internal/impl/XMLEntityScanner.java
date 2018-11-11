@@ -305,7 +305,7 @@ public class XMLEntityScanner implements XMLLocator  {
     ///////////// Locator methods start.
     public final int getLineNumber(){
         //if the entity is closed, we should return -1
-        //xxx at first place why such call should be there...
+        //simplefactory at first place why such call should be there...
         return fCurrentEntity != null ? fCurrentEntity.lineNumber : -1 ;
     }
 
@@ -319,7 +319,7 @@ public class XMLEntityScanner implements XMLLocator  {
 
     public final int getColumnNumber(){
         //if the entity is closed, we should return -1
-        //xxx at first place why such call should be there...
+        //simplefactory at first place why such call should be there...
         return fCurrentEntity != null ? fCurrentEntity.columnNumber : -1 ;
     }
 
@@ -2144,7 +2144,7 @@ public class XMLEntityScanner implements XMLLocator  {
     } // getEncodingName(byte[],int):Object[]
 
     /**
-     * xxx not removing endEntity() so that i remember that we need to implement it.
+     * simplefactory not removing endEntity() so that i remember that we need to implement it.
      * Ends an entity.
      *
      * @throws XNIException Thrown by entity handler to signal an error.

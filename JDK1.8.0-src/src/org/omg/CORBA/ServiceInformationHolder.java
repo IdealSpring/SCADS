@@ -31,7 +31,7 @@ package org.omg.CORBA;
  * "Generated Files: Holder Files"</a>.<P>
  * A Holder class for a <code>ServiceInformation</code> object
  * that is used to store "out" and "inout" parameters in IDL methods.
- * If an IDL method signature has an IDL <code>xxx</code> as an "out"
+ * If an IDL method signature has an IDL <code>simplefactory</code> as an "out"
  * or "inout" parameter, the programmer must pass an instance of
  * <code>ServiceInformationHolder</code> as the corresponding
  * parameter in the method invocation; for "inout" parameters, the programmer

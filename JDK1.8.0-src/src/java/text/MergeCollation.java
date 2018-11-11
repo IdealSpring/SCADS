@@ -49,7 +49,7 @@ import java.util.ArrayList;
  * <separator> := "=", ",", ";", "<", "&"
  * <chars>, and <extension> are both arbitrary strings.
  * unquoted whitespaces are ignored.
- * 'xxx' can be used to quote characters
+ * 'simplefactory' can be used to quote characters
  * One difference from Collator is that & is used to reset to a current
  * point. Or, in other words, it introduces a new sequence which is to
  * be added to the old.

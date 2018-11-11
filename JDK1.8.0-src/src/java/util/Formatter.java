@@ -3652,7 +3652,7 @@ public final class Formatter implements Closeable, Flushable {
                     int e = - value.scale()
                         + (value.unscaledValue().toString().length() - 1);
 
-                    // xxx.yyy
+                    // simplefactory.yyy
                     //   g precision (# sig digits) = #x + #y
                     //   f precision = #y
                     //   exponent = #x - 1
@@ -3761,7 +3761,7 @@ public final class Formatter implements Closeable, Flushable {
                     // count of padding zeros
                     int pad = scale - coeff.length;
                     if (pad >= 0) {
-                        // 0.xxx form
+                        // 0.simplefactory form
                         mant.append("0.");
                         dot = true;
                         for (; pad > 0 ; pad--) mant.append('0');
@@ -3782,7 +3782,7 @@ public final class Formatter implements Closeable, Flushable {
                         }
                     }
                 } else {
-                    // x.xxx form
+                    // x.simplefactory form
                     mant.append(coeff[0]);
                     if (coeff.length > 1) {
                         mant.append('.');

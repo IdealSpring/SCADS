@@ -3460,7 +3460,7 @@ public class BigDecimal extends Number implements Comparable<BigDecimal> {
         long adjusted = -(long)scale + (coeffLen -1);
         if ((scale >= 0) && (adjusted >= -6)) { // plain number
             int pad = scale - coeffLen;         // count of padding zeros
-            if (pad >= 0) {                     // 0.xxx form
+            if (pad >= 0) {                     // 0.simplefactory form
                 buf.append('0');
                 buf.append('.');
                 for (; pad>0; pad--) {

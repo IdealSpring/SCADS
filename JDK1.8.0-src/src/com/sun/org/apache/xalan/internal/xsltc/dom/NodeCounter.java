@@ -64,7 +64,7 @@ public abstract class NodeCounter {
     private final static String[] Hundreds =
     {"", "c", "cc", "ccc", "cd", "d", "dc", "dcc", "dccc", "cm"};
     private final static String[] Tens =
-    {"", "x", "xx", "xxx", "xl", "l", "lx", "lxx", "lxxx", "xc"};
+    {"", "x", "xx", "simplefactory", "xl", "l", "lx", "lxx", "lxxx", "xc"};
     private final static String[] Ones =
     {"", "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix"};
 

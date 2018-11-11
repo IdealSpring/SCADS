@@ -1526,7 +1526,7 @@ public final class DateTimeFormatterBuilder {
      *    XXXXX   5      appendOffset("+HH:MM:ss","Z")
      *    x       1      appendOffset("+HHmm","+00")
      *    xx      2      appendOffset("+HHMM","+0000")
-     *    xxx     3      appendOffset("+HH:MM","+00:00")
+     *    simplefactory     3      appendOffset("+HH:MM","+00:00")
      *    xxxx    4      appendOffset("+HHMMss","+0000")
      *    xxxxx   5      appendOffset("+HH:MM:ss","+00:00")
      *    Z       1      appendOffset("+HHMM","+0000")

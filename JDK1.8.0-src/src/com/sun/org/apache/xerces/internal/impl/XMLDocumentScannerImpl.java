@@ -160,7 +160,7 @@ public class XMLDocumentScannerImpl
     protected XMLDTDScanner fDTDScanner = null;
 
     /** Validation manager . */
-    //xxx: fValidationManager code needs to be added yet!
+    //simplefactory: fValidationManager code needs to be added yet!
     protected ValidationManager fValidationManager;
 
     protected XMLStringBuffer fDTDDecl = null;
@@ -1012,11 +1012,11 @@ public class XMLDocumentScannerImpl
             // premature end of file
             catch (EOFException e) {
                 reportFatalError("PrematureEOF", null);
-                //xxx  what should be returned here.... ???
+                //simplefactory  what should be returned here.... ???
                 return -1 ;
                 //throw e;
             }
-            //xxx  what should be returned here.... ???
+            //simplefactory  what should be returned here.... ???
             return -1;
 
         }
@@ -1048,7 +1048,7 @@ public class XMLDocumentScannerImpl
                 System.out.println("After calling dispatch(true) -- At this point whole DTD is read.");
             }
 
-            //xxx: remove this hack and align this with reusing DTD components
+            //simplefactory: remove this hack and align this with reusing DTD components
             //currently this routine will only be executed from Stax
             if(fPropertyManager != null){
                 dtdGrammarUtil =  new DTDGrammarUtil(((XMLDTDScannerImpl)fDTDScanner).getGrammar(),fSymbolTable, fNamespaceContext);
@@ -1446,7 +1446,7 @@ public class XMLDocumentScannerImpl
                         //there can't be any element after SCANNER_STATE_TERMINATED or when the parser
                         //has reached the end of document
                         setScannerState(SCANNER_STATE_NO_SUCH_ELEMENT_EXCEPTION);
-                        //xxx what to do when the scanner has reached the terminating state.
+                        //simplefactory what to do when the scanner has reached the terminating state.
                         return XMLEvent.END_DOCUMENT ;
                     }
                     case SCANNER_STATE_NO_SUCH_ELEMENT_EXCEPTION:{

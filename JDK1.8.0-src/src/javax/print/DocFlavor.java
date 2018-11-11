@@ -206,16 +206,16 @@ import java.io.Serializable;
  * <TD>Plain text in the default character set (US-ASCII)</TD>
  * </TR>
  * <TR>
- * <TD><CODE>"text/plain; charset=<I>xxx</I>"</CODE></TD>
- * <TD>Plain text in character set <I>xxx</I></TD>
+ * <TD><CODE>"text/plain; charset=<I>simplefactory</I>"</CODE></TD>
+ * <TD>Plain text in character set <I>simplefactory</I></TD>
  * </TR>
  * <TR>
  * <TD><CODE>"text/html"</CODE></TD>
  * <TD>HyperText Markup Language in the default character set (US-ASCII)</TD>
  * </TR>
  * <TR>
- * <TD><CODE>"text/html; charset=<I>xxx</I>"</CODE></TD>
- * <TD>HyperText Markup Language in character set <I>xxx</I></TD>
+ * <TD><CODE>"text/html; charset=<I>simplefactory</I>"</CODE></TD>
+ * <TD>HyperText Markup Language in character set <I>simplefactory</I></TD>
  * </TR>
  * </TABLE>
  * <P>

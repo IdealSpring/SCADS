@@ -1210,7 +1210,7 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
 
         if (external) {
             staxInputSource = resolveEntityAsPerStax(externalEntity.entityLocation);
-            /** xxx:  Waiting from the EG
+            /** simplefactory:  Waiting from the EG
              * //simply return if there was entity resolver registered and application
              * //returns either XMLStreamReader or XMLEventReader.
              * if(staxInputSource.hasXMLStreamOrXMLEventReader()) return ;
@@ -1255,7 +1255,7 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
         startEntity(false, XMLEntity, xmlInputSource, false, true);
     } // startDocumentEntity(XMLInputSource)
 
-    //xxx these methods are not required.
+    //simplefactory these methods are not required.
     /**
      * Starts the DTD entity. The DTD entity has the "[dtd]"
      * pseudo-name.

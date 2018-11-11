@@ -511,7 +511,7 @@ public class SnmpGenericObjectServer {
      * </code>
      *
      **/
-    // XXX xxx ZZZ zzz Maybe we should go through the MBeanInfo here?
+    // XXX simplefactory ZZZ zzz Maybe we should go through the MBeanInfo here?
     public void check(SnmpGenericMetaServer meta, ObjectName name,
                       SnmpValue x, long id, Object data)
         throws SnmpStatusException {

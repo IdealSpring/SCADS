@@ -167,7 +167,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
     public XMLStreamReaderImpl(Reader reader, PropertyManager props) throws  XMLStreamException {
         init(props);
         //publicId, systemid, baseSystemId, inputStream, enocding
-        //xxx: Using buffered reader
+        //simplefactory: Using buffered reader
         XMLInputSource inputSource = new XMLInputSource(null,null,null,new BufferedReader(reader),null);
         //pass the input source to document scanner impl.
         setInputSource(inputSource);
@@ -272,7 +272,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
      * @throws XMLStreamException if there are errors freeing associated resources
      */
     public void close() throws XMLStreamException {
-        //xxx: Check what this function is intended to do.
+        //simplefactory: Check what this function is intended to do.
         //reset();
         fReuse = true ;
     }
@@ -317,7 +317,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
 
     public String getLocalName() {
         if(fEventType == XMLEvent.START_ELEMENT || fEventType == XMLEvent.END_ELEMENT){
-            //xxx check whats the value of fCurrentElement
+            //simplefactory check whats the value of fCurrentElement
             return fScanner.getElementQName().localpart ;
         }
         else if(fEventType == XMLEvent.ENTITY_REFERENCE){
@@ -664,7 +664,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
      * @throws IllegalStateException if this is not a START_ELEMENT or ATTRIBUTE
      */
     public int getAttributeCount() {
-        //xxx: recognize SAX properties namespace, namespace-prefix to get XML Namespace declarations
+        //simplefactory: recognize SAX properties namespace, namespace-prefix to get XML Namespace declarations
         //does length includes namespace declarations ?
 
         //State should be either START_ELEMENT or ATTRIBUTE
@@ -1264,7 +1264,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
      * @return true if standalone was set in the document, or false otherwise
      */
     public boolean standaloneSet() {
-        //xxx: it requires if the standalone was set in the document ? This is different that if the document
+        //simplefactory: it requires if the standalone was set in the document ? This is different that if the document
         // is standalone
         return fScanner.standaloneSet() ;
     }
@@ -1275,7 +1275,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
      */
     public javax.xml.namespace.QName convertXNIQNametoJavaxQName(com.sun.org.apache.xerces.internal.xni.QName qname){
         if (qname == null) return null;
-        //xxx: prefix definition ?
+        //simplefactory: prefix definition ?
         if(qname.prefix == null){
             return new javax.xml.namespace.QName(qname.uri, qname.localpart) ;
         } else{
@@ -1303,7 +1303,7 @@ public class XMLStreamReaderImpl implements javax.xml.stream.XMLStreamReader {
         return fScanner.getNamespaceContext().getURI(fSymbolTable.addSymbol(prefix)) ;
     }
 
-    //xxx: this function is not being used.
+    //simplefactory: this function is not being used.
     protected void setPropertyManager(PropertyManager propertyManager){
         fPropertyManager = propertyManager ;
         //REVISIT: we were supplying hashmap ealier

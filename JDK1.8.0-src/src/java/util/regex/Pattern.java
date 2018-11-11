@@ -2817,12 +2817,12 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
         if (ch == '?') {
             ch = skip();
             switch (ch) {
-            case ':':   //  (?:xxx) pure group
+            case ':':   //  (?:simplefactory) pure group
                 head = createGroup(true);
                 tail = root;
                 head.next = expr(tail);
                 break;
-            case '=':   // (?=xxx) and (?!xxx) lookahead
+            case '=':   // (?=simplefactory) and (?!simplefactory) lookahead
             case '!':
                 head = createGroup(true);
                 tail = root;
@@ -2833,13 +2833,13 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
                     head = tail = new Neg(head);
                 }
                 break;
-            case '>':   // (?>xxx)  independent group
+            case '>':   // (?>simplefactory)  independent group
                 head = createGroup(true);
                 tail = root;
                 head.next = expr(tail);
                 head = tail = new Ques(head, INDEPENDENT);
                 break;
-            case '<':   // (?<xxx)  look behind
+            case '<':   // (?<simplefactory)  look behind
                 ch = read();
                 if (ASCII.isLower(ch) || ASCII.isUpper(ch)) {
                     // named captured group
@@ -2885,7 +2885,7 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
             case '$':
             case '@':
                 throw error("Unknown group type");
-            default:    // (?xxx:) inlined match flags
+            default:    // (?simplefactory:) inlined match flags
                 unread();
                 addFlag();
                 ch = read();
@@ -2900,7 +2900,7 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
                 head.next = expr(tail);
                 break;
             }
-        } else { // (xxx) a regular group
+        } else { // (simplefactory) a regular group
             capturingGroup = true;
             head = createGroup(false);
             tail = root;

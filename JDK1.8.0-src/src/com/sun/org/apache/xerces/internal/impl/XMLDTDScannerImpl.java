@@ -337,7 +337,7 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
     boolean hasExternalSubset)
     throws IOException, XNIException {
         // reset entity scanner
-        //xxx:stax getText() is supposed to return only DTD internal subset
+        //simplefactory:stax getText() is supposed to return only DTD internal subset
         //shouldn't we record position here before we go ahead ??
 
         fEntityScanner = (XMLEntityScanner)fEntityManager.getEntityScanner();

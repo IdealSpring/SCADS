@@ -2,16 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/design_patterns/design_patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackAnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IAnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/ICat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteAnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/AddFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/OperationSubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/SubtractionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationSubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseHungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/SCRDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/SCRDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo$Str.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/jmx/snmp/agent/SnmpGenericObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/jmx/snmp/agent/SnmpGenericObjectServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xalan/internal/xsltc/dom/NodeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xalan/internal/xsltc/dom/NodeCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDTDScannerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDTDScannerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLEntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLNSDocumentScannerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLNSDocumentScannerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLStreamReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/impl/XMLStreamReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/util/XMLAttributesIteratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xerces/internal/util/XMLAttributesIteratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xml/internal/serializer/OutputPropertiesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/com/sun/org/apache/xml/internal/serializer/OutputPropertiesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/math/BigDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/math/BigDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/text/MergeCollation.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/text/MergeCollation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/time/format/DateTimeFormatterBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/time/format/DateTimeFormatterBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Base64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/regex/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/regex/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/management/modelmbean/DescriptorSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/management/modelmbean/DescriptorSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/print/DocFlavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/print/DocFlavor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/print/attribute/standard/JobState.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/print/attribute/standard/JobState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/swing/UIDefaults.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/swing/UIDefaults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/swing/plaf/basic/BasicHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/javax/swing/plaf/basic/BasicHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK1.8.0-src/src/org/omg/CORBA/ServiceInformationHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK1.8.0-src/src/org/omg/CORBA/ServiceInformationHolder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,27 +68,12 @@
     <favorites_list name="SCADS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <element signature="e#3948#3949#0" expanded="true" />
-                <element signature="e#3974#3975#0" expanded="true" />
-                <element signature="e#4697#4698#0" expanded="true" />
-                <element signature="e#4742#4743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -101,33 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/Moveable.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/AbstractMoveable.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/LandMoveable.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/Demo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/Day01Demo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/ArrayList.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/ArrayList扩容原理.txt" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/MyArrayList.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/ArrayListDemo.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedList.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/heap/Heap.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Stack.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/stack/StackDemo.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractSet.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/UserMap.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo2.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day03Demo3.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Map.java" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/AbstractMap.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/Day02Demo3.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/Demo.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTreeMain.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinaryTreeDemo.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java" />
         <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLTreeTest.java" />
         <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/Temp.java" />
         <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLtree.java" />
@@ -152,6 +153,33 @@
         <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java" />
         <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashSet.java" />
         <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashSet.java" />
+        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeSet.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCase.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseLazy.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseHungry.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseDemo.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Operation.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationSubtraction.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationAdd.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/Factory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/AddFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/OperationAdd.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/OperationSubtraction.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/SubtractionFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IDog.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackDog.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteDog.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/ICat.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackCat.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteCat.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IAnimalFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackAnimalFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteAnimalFactory.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/Client.java" />
       </list>
     </option>
   </component>
@@ -186,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,53 +225,35 @@
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="ccut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayandlink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayandlink" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="ccut" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,20 +269,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\java\util" />
-      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\tree" />
-      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm" />
-      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
-      <recent name="D:\idealU\deeplearning\SCADS" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ccut.factoryfunction" />
       <recent name="java.util" />
       <recent name="" />
       <recent name="cn.ccut" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\design_patterns\src\cn\ccut\factoryfunction" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\java\util" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\tree" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm" />
+      <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,14 +298,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SCRDemo">
-    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.AVLTreeDemo" />
-      <module name="algorithm" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.abstractfactory.Client" />
+      <module name="design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
+          <option name="PATTERN" value="cn.ccut.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.simplefactory.Client" />
+      <module name="design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.factorymethod.Client" />
+      <module name="design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,32 +343,21 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.RedBlackTree" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RedBlackTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.tree.RedBlackTreeDemo" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.algorithm.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="SCRDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.ccut.algorithm.other.SCRDemo" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SingleCaseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.singlecase.SingleCaseDemo" />
+      <module name="design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.singlecase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,19 +401,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AVLTreeDemo" />
-      <item itemvalue="Application.RedBlackTree" />
-      <item itemvalue="Application.RedBlackTreeDemo" />
       <item itemvalue="Application.OtherDemo" />
       <item itemvalue="Application.SCRDemo" />
+      <item itemvalue="Application.SingleCaseDemo" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.SingleCaseDemo" />
         <item itemvalue="Application.SCRDemo" />
-        <item itemvalue="Application.OtherDemo" />
-        <item itemvalue="Application.RedBlackTreeDemo" />
-        <item itemvalue="Application.RedBlackTree" />
-        <item itemvalue="Application.AVLTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +524,9 @@
       <workItem from="1541647829590" duration="1912000" />
       <workItem from="1541651649405" duration="636000" />
       <workItem from="1541653698853" duration="1620000" />
-      <workItem from="1541665295443" duration="262000" />
+      <workItem from="1541665295443" duration="4196000" />
+      <workItem from="1541760238154" duration="18297000" />
+      <workItem from="1541921787652" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -517,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541332909147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="see source code for TreeSet in JDK1.8">
+      <created>1541670263026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541670263026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -553,11 +585,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753055000" />
+    <option name="totallyTimeSpent" value="776304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -569,15 +600,15 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.383821" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.46735394" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.18154311" />
       <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="7" sideWeight="0.51462996" side_tool="true" visible="true" weight="0.22995462" />
+      <window_info id="Structure" order="7" sideWeight="0.51462996" side_tool="true" weight="0.22995462" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -627,7 +658,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="see source code for TreeMap in JDK1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="see source code for TreeMap in JDK1.8" />
+    <MESSAGE value="see source code for TreeSet in JDK1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="see source code for TreeSet in JDK1.8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,113 +730,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLTreeTest.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/temp/AVLtree.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java" />
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTreeDemo.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreePractice.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTree.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java" />
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackTree.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RandomNum.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/RedBlackNode.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/EuclideanAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java" />
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="203" column="44" lean-forward="true" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/LRUCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="1913" column="26" selection-start-line="1913" selection-start-column="26" selection-end-line="1913" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/rmi/Remote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Cat.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/Animal.java" />
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="676" column="28" selection-start-line="676" selection-start-column="22" selection-end-line="676" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/SortedMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="112" column="26" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/NavigableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -896,13 +821,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/java/util/TreeMap.java" />
     <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/SCRDemo.java" />
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55836">
-          <caret line="2300" column="17" selection-start-line="2300" selection-start-column="17" selection-end-line="2300" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -911,13 +829,6 @@
             <element signature="e#42781#42782#0" expanded="true" />
             <element signature="e#42824#42825#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8451">
-          <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -939,14 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="189" column="42" lean-forward="true" selection-start-line="189" selection-start-column="42" selection-end-line="189" selection-end-column="42" />
-          <folding>
-            <element signature="e#5516#5517#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
-            <element signature="e#5949#5950#0" expanded="true" />
-            <element signature="e#5999#6000#0" expanded="true" />
-            <element signature="e#6162#6163#0" expanded="true" />
-            <element signature="e#6199#6200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,14 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-          <folding>
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#3873#3874#0" expanded="true" />
-            <element signature="e#5116#5117#0" expanded="true" />
-            <element signature="e#5180#5181#0" expanded="true" />
-            <element signature="e#5601#5602#0" expanded="true" />
-            <element signature="e#5653#5654#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,16 +886,310 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/java.util.TreeSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.TreeSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.util.SortedSet</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.util.NavigableSet</node>
+            <node x="" y="">java.util.TreeSet</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="222.0" y="215.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="199" column="6" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="2463" column="9" selection-start-line="2463" selection-start-column="9" selection-end-line="2463" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseHungry.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseLazy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.ccut.simplefactory.Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.ccut.simplefactory.Client</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.ccut.simplefactory.Client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="40.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.Override">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.Override</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Override</node>
+            <node x="" y="">java.lang.annotation.Annotation</node>
+            <node x="" y="">java.lang.annotation.Target</node>
+            <node x="" y="">java.lang.annotation.Retention</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="135.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.ccut.simplefactory.OperationSubtraction">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.ccut.simplefactory.OperationSubtraction</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.ccut.simplefactory.OperationSubtraction</node>
+            <node x="" y="">cn.ccut.simplefactory.Operation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="55.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationSubtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/OperationAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/OperationSubtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/SubtractionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/AddFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/factorymethod/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IDog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackDog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#3948#3949#0" expanded="true" />
-            <element signature="e#3974#3975#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteDog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/ICat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/IAnimalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/BlackAnimalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/WhiteAnimalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/abstractfactory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>

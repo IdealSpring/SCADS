@@ -233,7 +233,7 @@ public class BasicHTML {
      * you would use the following the set the base:
      * <pre>
      *   jComponent.putClientProperty(documentBaseKey,
-     *                                xxx.class.getResource("resources/"));
+     *                                simplefactory.class.getResource("resources/"));
      * </pre>
      */
     public static final String documentBaseKey = "html.base";

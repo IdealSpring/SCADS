@@ -1226,8 +1226,8 @@ public class DescriptorSupport
      * containing quote characters).  If vvv begins and ends with parentheses,
      * then it may contain:
      * - the characters "null", in which case the result is null;
-     * - a value of the form "some.class.name/xxx", in which case the
-     * result is equivalent to `new some.class.name("xxx")';
+     * - a value of the form "some.class.name/simplefactory", in which case the
+     * result is equivalent to `new some.class.name("simplefactory")';
      * - some other string, in which case the result is that string,
      * without the parentheses.
      */

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JDK1.8.0-src/JDK1.8.0-src.iml" filepath="$PROJECT_DIR$/JDK1.8.0-src/JDK1.8.0-src.iml" />
       <module fileurl="file://$PROJECT_DIR$/SCADS.iml" filepath="$PROJECT_DIR$/SCADS.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnJVM/learnJVM.iml" filepath="$PROJECT_DIR$/learnJVM/learnJVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnrecord/learnrecord.iml" filepath="$PROJECT_DIR$/learnrecord/learnrecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/newfeatures/newfeatures.iml" filepath="$PROJECT_DIR$/newfeatures/newfeatures.iml" />

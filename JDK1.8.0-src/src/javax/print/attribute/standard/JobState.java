@@ -130,7 +130,7 @@ public class JobState extends EnumSyntax implements PrintJobAttribute {
      * value and one of the CANCELED_BY_USER, CANCELED_BY_OPERATOR, or
      * CANCELED_AT_DEVICE values. When the job moves to the CANCELED state, the
      * PROCESSING_TO_STOP_POINT value, if present, must be removed, but the
-     * CANCELED_BY_<I>xxx</I> value, if present, must remain.
+     * CANCELED_BY_<I>simplefactory</I> value, if present, must remain.
      */
     public static final JobState CANCELED = new JobState (7);
 

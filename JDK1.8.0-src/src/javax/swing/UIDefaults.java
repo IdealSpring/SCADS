@@ -1220,16 +1220,16 @@ public class UIDefaults extends Hashtable<Object,Object>
      *
      * There are several patterns for the text and mnemonic suffixes which are checked by the
      * <code>TextAndMnemonicHashMap</code> class.
-     * Patterns which are converted to the xxx.textAndMnemonic key:
+     * Patterns which are converted to the simplefactory.textAndMnemonic key:
      * (xxxNameText, xxxNameMnemonic)
      * (xxxNameText, xxxMnemonic)
-     * (xxx.nameText, xxx.mnemonic)
+     * (simplefactory.nameText, simplefactory.mnemonic)
      * (xxxText, xxxMnemonic)
      *
      * These patterns can have a mnemonic index in format
      * (xxxDisplayedMnemonicIndex)
      *
-     * Pattern which is converted to the xxx.titleAndMnemonic key:
+     * Pattern which is converted to the simplefactory.titleAndMnemonic key:
      * (xxxTitle, xxxMnemonic)
      *
      */

@@ -89,7 +89,7 @@ public class XMLAttributesIteratorImpl extends XMLAttributesImpl implements Iter
         super.removeAllAttributes() ;
         fCurrent = 0 ;
     }
-    /** xxx: should we be doing this way ? Attribute event defines so many functions which doesn't make any sense
+    /** simplefactory: should we be doing this way ? Attribute event defines so many functions which doesn't make any sense
      *for Attribute.
      *
      */

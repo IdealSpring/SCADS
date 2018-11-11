@@ -140,7 +140,7 @@ public abstract class XMLScanner
         }
     }
 
-    //xxx: setting the default value as false, as we dont need to calculate this value
+    //simplefactory: setting the default value as false, as we dont need to calculate this value
     //we should have a feature when set to true computes this value
     private boolean fNeedNonNormalizedValue = false;
 
@@ -184,7 +184,7 @@ public abstract class XMLScanner
     //protected XMLEntityManager fEntityManager = PropertyManager.getEntityManager();
     protected XMLEntityManager fEntityManager = null ;
 
-    /** xxx this should be available from EntityManager Entity storage */
+    /** simplefactory this should be available from EntityManager Entity storage */
     protected XMLEntityStorage fEntityStore = null ;
 
     /** Security manager. */
