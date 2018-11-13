@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Clothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Jecket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Lady.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Trouser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,68 +24,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Strategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Context.java">
+      <file leaf-file-name="Clothing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Clothing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyImplA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyImplB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyImplC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-              </folding>
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Client.java">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jecket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Jecket.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trouser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Trouser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Man.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Man.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#76#77#0" expanded="true" />
+                <element signature="e#101#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lady.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Lady.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -150,13 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCase.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseLazy.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseHungry.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/singlecase/SingleCaseDemo.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Operation.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationSubtraction.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationAdd.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Client.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationFactory.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/factoryfunction/Factory.java" />
@@ -201,6 +214,13 @@
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplA.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplB.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplC.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Clothing.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Trouser.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Jecket.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Person.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Man.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Lady.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Client.java" />
       </list>
     </option>
   </component>
@@ -275,7 +295,7 @@
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ccut" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,11 +327,11 @@
       <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ccut.bridge" />
       <recent name="cn.ccut.strategy" />
       <recent name="cn.ccut.factoryfunction" />
       <recent name="java.util" />
       <recent name="" />
-      <recent name="cn.ccut" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.ccut.prototype" />
@@ -329,14 +349,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.builder.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.bridge.Client" />
       <module name="design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.builder.*" />
+          <option name="PATTERN" value="cn.ccut.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +458,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +586,7 @@
       <workItem from="1541921787652" duration="3264000" />
       <workItem from="1541988516533" duration="7196000" />
       <workItem from="1542016022903" duration="5147000" />
-      <workItem from="1542093852863" duration="7541000" />
+      <workItem from="1542093852863" duration="10504000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -617,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542099629962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Strategy">
+      <created>1542109339779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542109339779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="798434000" />
+    <option name="totallyTimeSpent" value="801397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -677,7 +704,7 @@
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.383821" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.383821" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.21104388" />
       <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
@@ -731,7 +758,8 @@
     <MESSAGE value="Builder Model" />
     <MESSAGE value="Decorator" />
     <MESSAGE value="Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
+    <MESSAGE value="Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,92 +830,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/cn.ccut.simplefactory.Client">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.ccut.simplefactory.Client</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.ccut.simplefactory.Client</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="40.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.lang.Override">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Override</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.Override</node>
-            <node x="" y="">java.lang.annotation.Annotation</node>
-            <node x="" y="">java.lang.annotation.Target</node>
-            <node x="" y="">java.lang.annotation.Retention</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="135.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/cn.ccut.simplefactory.OperationSubtraction">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.ccut.simplefactory.OperationSubtraction</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.ccut.simplefactory.OperationSubtraction</node>
-            <node x="" y="">cn.ccut.simplefactory.Operation</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="55.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/simplefactory/OperationSubtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1203,21 +1145,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplA.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplB.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="324">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1232,21 +1174,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Context.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/StrategyImplA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/strategy/Client.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Man.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Lady.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Clothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Jecket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Trouser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
