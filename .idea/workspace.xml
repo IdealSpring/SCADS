@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/PlayContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Scale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,78 +21,7 @@
     <favorites_list name="SCADS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameRole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="1" />
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleStateCaretaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleStateMemento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,11 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/bridge/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/adapter/Forward.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/adapter/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/adapter/Translator.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/adapter/ForeignCenter.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/adapter/Player.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/composite/Company.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/composite/ConcreteCompany.java" />
@@ -204,6 +129,11 @@
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/PlayContext.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Scale.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Note.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Expression.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Client.java" />
       </list>
     </option>
   </component>
@@ -231,8 +161,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="202" />
-    <option name="y" value="70" />
+    <option name="x" value="-175" />
+    <option name="y" value="-16" />
     <option name="width" value="836" />
     <option name="height" value="728" />
   </component>
@@ -277,7 +207,7 @@
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.ccut.observer.Client" />
       <module name="design_patterns" />
@@ -367,13 +297,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.command.Client" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.interpreter.Client" />
       <module name="design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.command.*" />
+          <option name="PATTERN" value="cn.ccut.design.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,19 +361,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +497,7 @@
       <workItem from="1542510844648" duration="600000" />
       <workItem from="1542527770015" duration="1798000" />
       <workItem from="1542534615581" duration="5133000" />
-      <workItem from="1542603780988" duration="10776000" />
+      <workItem from="1542603780988" duration="16552000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -695,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542614651734</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="RoleStateMemento">
+      <created>1542624786261</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1542624786261</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,11 +668,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="841708000" />
+    <option name="totallyTimeSpent" value="847484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.4061962" />
@@ -749,16 +685,16 @@
       <window_info id="Structure" order="7" sideWeight="0.51462996" side_tool="true" weight="0.22995462" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.42857143" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.33907056" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32874355" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4354561" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5886403" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.23676248" />
       <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -855,7 +791,8 @@
     <MESSAGE value="Observer" />
     <MESSAGE value="Mediator" />
     <MESSAGE value="Update All" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update All" />
+    <MESSAGE value="RoleStateMemento" />
+    <option name="LAST_COMMIT_MESSAGE" value="RoleStateMemento" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,7 +855,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="259" />
+      <option name="time" value="261" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -926,48 +863,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/bridge/Lady.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/adapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/adapter/Translator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/adapter/ForeignCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/adapter/Forward.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/adapter/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/composite/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1281,31 +1176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
@@ -1325,14 +1199,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1340,6 +1215,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="1966" selection-start-line="1966" selection-end-line="1966" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Scale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/PlayContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
