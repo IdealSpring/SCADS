@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/AfternoonState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/EveningState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/ForenoonState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/NoonState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/RestState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/SleepingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/CommonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Majordomo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Requset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,115 +22,7 @@
     <favorites_list name="SCADS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Work.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Work.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoonState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/NoonState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AfternoonState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/AfternoonState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EveningState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/EveningState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SleepingState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/SleepingState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/RestState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForenoonState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/ForenoonState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,12 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/facade/ServiceB.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/facade/ServiceC.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/WebSite.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/ConcreteWebSite.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/User.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/WebSiteFactory.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/ContreteTemplate.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/Template.java" />
@@ -246,6 +129,12 @@
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/SleepingState.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/RestState.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Manager.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Requset.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Client.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/CommonManager.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/GeneralManager.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Majordomo.java" />
       </list>
     </option>
   </component>
@@ -273,8 +162,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-175" />
-    <option name="y" value="-16" />
+    <option name="x" value="-22" />
+    <option name="y" value="1" />
     <option name="width" value="836" />
     <option name="height" value="728" />
   </component>
@@ -286,8 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,6 +206,14 @@
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="cor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -326,6 +221,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,10 +238,8 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.ccut.design.state" />
-      <recent name="cn.ccut.mediator" />
-      <recent name="cn.ccut.prototype" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idealU\deeplearning\SCADS\design_patterns\src\cn\ccut\factoryfunction" />
@@ -360,8 +255,11 @@
       <recent name="cn.ccut.strategy" />
       <recent name="cn.ccut.factoryfunction" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.ccut.design.cor" />
+      <recent name="cn.ccut.design.state" />
+      <recent name="cn.ccut.mediator" />
+      <recent name="cn.ccut.prototype" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,18 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.observer.Client" />
-      <module name="design_patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.ccut.mediator.Client" />
       <module name="design_patterns" />
@@ -428,6 +315,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.ccut.design.interpreter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.cor.Client" />
+      <module name="design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.design.cor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,19 +372,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -610,7 +508,8 @@
       <workItem from="1542510844648" duration="600000" />
       <workItem from="1542527770015" duration="1798000" />
       <workItem from="1542534615581" duration="5133000" />
-      <workItem from="1542603780988" duration="18966000" />
+      <workItem from="1542603780988" duration="19932000" />
+      <workItem from="1542687777337" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -752,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542632152650</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="State">
+      <created>1542634685369</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542634685369</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,11 +694,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="849898000" />
+    <option name="totallyTimeSpent" value="854415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.4061962" />
@@ -815,7 +720,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5886403" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.24054463" />
       <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -830,17 +735,17 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4354561" />
+      <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info id="Image Layers" order="0" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4354561" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info id="Capture Tool" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.4061962" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32874355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -848,7 +753,6 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32702237" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
       <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.23676248" />
       <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" weight="0.3298969" />
@@ -859,6 +763,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="7" sideWeight="0.51462996" side_tool="true" weight="0.22995462" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32702237" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.42857143" />
     </layout-to-restore>
   </component>
@@ -914,7 +819,8 @@
     <MESSAGE value="Update All" />
     <MESSAGE value="RoleStateMemento" />
     <MESSAGE value="Interpreter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interpreter" />
+    <MESSAGE value="State" />
+    <option name="LAST_COMMIT_MESSAGE" value="State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,48 +891,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/facade/Facade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" selection-start-line="2" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/WebSiteFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/ConcreteWebSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/WebSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1327,15 +1191,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Work.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
@@ -1357,31 +1221,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/ForenoonState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/NoonState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="108">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/AfternoonState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/EveningState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="27">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/SleepingState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding>
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
@@ -1391,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/RestState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="108">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
@@ -1400,17 +1271,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/ForenoonState.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Client.java">
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Requset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/CommonManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Majordomo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/GeneralManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
