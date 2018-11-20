@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/CommonManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/GeneralManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Majordomo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Requset.java" afterDir="false" />
+    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="Chain Of Responsibility">
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Failing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Success.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -84,14 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/flyweight/WebSiteFactory.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/ContreteTemplate.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/Template.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/ContreteTemplateA.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/ContreteTemplateB.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/templatemethod/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Command.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/ConcreteCommand.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Receiver.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Invoker.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Client.java" />
@@ -135,6 +129,14 @@
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/CommonManager.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/GeneralManager.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/cor/Majordomo.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Man.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Woman.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Action.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Person.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Success.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Failing.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/ObjectStructure.java" />
+        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Client.java" />
       </list>
     </option>
   </component>
@@ -206,15 +208,7 @@
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="cor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,13 +243,14 @@
       <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ccut.design.visitor" />
       <recent name="cn.ccut.templatemethod" />
       <recent name="cn.ccut.facade" />
       <recent name="cn.ccut.bridge" />
       <recent name="cn.ccut.strategy" />
-      <recent name="cn.ccut.factoryfunction" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.ccut.design.visitor" />
       <recent name="cn.ccut.design.cor" />
       <recent name="cn.ccut.design.state" />
       <recent name="cn.ccut.mediator" />
@@ -274,14 +269,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.mediator.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.visitor.Client" />
       <module name="design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.mediator.*" />
+          <option name="PATTERN" value="cn.ccut.design.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,19 +367,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +504,7 @@
       <workItem from="1542527770015" duration="1798000" />
       <workItem from="1542534615581" duration="5133000" />
       <workItem from="1542603780988" duration="19932000" />
-      <workItem from="1542687777337" duration="3551000" />
+      <workItem from="1542687777337" duration="6964000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -658,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542634685369</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Chain Of Responsibility">
+      <created>1542699251464</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1542699251464</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -694,7 +696,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="854415000" />
+    <option name="totallyTimeSpent" value="857828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -820,7 +822,8 @@
     <MESSAGE value="RoleStateMemento" />
     <MESSAGE value="Interpreter" />
     <MESSAGE value="State" />
-    <option name="LAST_COMMIT_MESSAGE" value="State" />
+    <MESSAGE value="Chain Of Responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chain Of Responsibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,62 +894,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/flyweight/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/templatemethod/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/templatemethod/ContreteTemplateA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/templatemethod/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/templatemethod/ContreteTemplateB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/ConcreteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1348,6 +1295,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Success.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Failing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Woman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/ObjectStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
