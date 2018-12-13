@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="Chain Of Responsibility">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Failing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/ObjectStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Woman.java" afterDir="false" />
+    <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_01/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_01/MyThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_02/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_02/MyThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_03/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_03/MyThreadPrioriy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleepDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/GetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/SetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/GetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/SetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_03/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo$AbstractMoveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo$FlyMoveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo$LandMoveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo$Moveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_01/Day01Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2$UserMaper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/Day02Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnrecord/cn/ccut/learnrecond/day_02/UserMap.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +62,7 @@
     <favorites_list name="SCADS" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,35 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Receiver.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Invoker.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/command/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/iterator/Iterator.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/iterator/List.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/iterator/ListImpl.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/iterator/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/iterator/IteratorImpl.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/observer/Observer.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/observer/Subject.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/observer/Boss.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/observer/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/observer/StockObserver.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/UnitedNations.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/Country.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/USA.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/Iraq.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/UnitedNationsSecurityConcil.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/mediator/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/PlayContext.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Scale.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Note.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Expression.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Client.java" />
-        <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/State.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Work.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/ForenoonState.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/NoonState.java" />
@@ -137,6 +146,35 @@
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Failing.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/ObjectStructure.java" />
         <option value="$PROJECT_DIR$/design_patterns/src/cn/ccut/design/visitor/Client.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/MyThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/MyThreadDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/cn/ccut_01/MyThreadDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/cn/ccut_02/MyThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/cn/ccut_02/MyThreadDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_03/MyThreadPrioriy.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleepDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleep.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoinDeo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoin.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoinDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/MyThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemon.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemonDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStop.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStopDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunable.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunableDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicketDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicket.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/cn/ccut_01/StudentDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/cn/ccut_01/Student.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/cn/ccut_01/GetThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/cn/ccut_01/SetThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Student.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/GetThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Demo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/SetThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_03/ThreadDemo.java" />
       </list>
     </option>
   </component>
@@ -187,42 +225,43 @@
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="ccut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="ccut" type="462c0819:PsiDirectoryNode" />
+              <item name="learnrecond" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedHashSet&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;TreeMap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/TreeMap.java&#10;abstract&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;AbstractMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;Hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;remo&#9;PSI&#9;JAVA://java.rmi.Remote&#10;LruCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;HashMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LinkedHash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedHashMap.java&#10;Linked&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;hashmap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;Hashmap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;compa&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Runnable&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Runnable.java&#10;Thread&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Thread.java&#10;putall&#9;PSI&#9;JAVA://sun.security.action.PutAllAction&#10;hash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;abstractmap&#9;PSI&#9;JAVA://java.util.AbstractMap&#10;arraylis&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/ArrayList.java&#10;sup&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Run&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Hashma&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Arraylist&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/ArrayList.java&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;array&#9;PSI&#9;JAVA://java.lang.reflect.Array&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;abs&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractSequentialList.java&#10;arraylist&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/ArrayList.java&#10;Abstr&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractList.java&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;AbstracSequenti&#9;PSI&#9;JAVA://java.util.AbstractSequentialList&#10;abstractlist&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractList.java&#10;AbstractCollection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractCollection.java&#10;collection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Collection.java&#10;Predicate&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/function/Predicate.java&#10;consumer&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java&#10;Collection&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Collection.java&#10;iter&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/lang/Iterable.java&#10;it&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/Iterator.java&#10;Iterator&#9;null&#9;null&#10;Link&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedList.java&#10;AbstractList&#9;PSI&#9;JAVA://java.util.AbstractList&#10;abstractli&#9;FILE&#9;jar://D:/JDK/Installation8/jdk1.8.0_181/src.zip!/java/util/AbstractList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,11 +282,11 @@
       <recent name="D:\idealU\deeplearning\SCADS\algorithm\src\cn\ccut\algorithm\arrayandlink\array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ccut.learnrecond.day_02.ccut_02" />
+      <recent name="cn.ccut.learnrecond.day_01.ccut_03" />
       <recent name="cn.ccut.design.visitor" />
       <recent name="cn.ccut.templatemethod" />
       <recent name="cn.ccut.facade" />
-      <recent name="cn.ccut.bridge" />
-      <recent name="cn.ccut.strategy" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.ccut.design.visitor" />
@@ -269,58 +308,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.visitor.Client" />
-      <module name="design_patterns" />
+  <component name="RunManager" selected="Application.ThreadDemo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_02.ccut_02.Demo" />
+      <module name="learnrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.design.visitor.*" />
+          <option name="PATTERN" value="cn.ccut.learnrecond.day_02.ccut_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.memento.Client" />
-      <module name="design_patterns" />
+    <configuration name="SellTicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_01.ccut_08.SellTicketDemo" />
+      <module name="learnrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.design.memento.*" />
+          <option name="PATTERN" value="cn.ccut.learnrecond.day_01.ccut_08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.state.Client" />
-      <module name="design_patterns" />
+    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_02.cn.ccut_01.StudentDemo" />
+      <module name="learnrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.design.state.*" />
+          <option name="PATTERN" value="cn.ccut.learnrecond.day_02.cn.ccut_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.interpreter.Client" />
-      <module name="design_patterns" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_02.ccut_03.ThreadDemo" />
+      <module name="learnrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.design.interpreter.*" />
+          <option name="PATTERN" value="cn.ccut.learnrecond.day_02.ccut_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.cor.Client" />
-      <module name="design_patterns" />
+    <configuration name="ThreadRunableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_01.ccut_07.ThreadRunableDemo" />
+      <module name="learnrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.design.cor.*" />
+          <option name="PATTERN" value="cn.ccut.learnrecond.day_01.ccut_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,19 +406,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.Client (5)" />
-      <item itemvalue="Application.Client (4)" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.ThreadRunableDemo" />
+      <item itemvalue="Application.SellTicketDemo" />
+      <item itemvalue="Application.StudentDemo" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.ThreadDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.StudentDemo" />
+        <item itemvalue="Application.SellTicketDemo" />
+        <item itemvalue="Application.ThreadRunableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -505,6 +544,10 @@
       <workItem from="1542534615581" duration="5133000" />
       <workItem from="1542603780988" duration="19932000" />
       <workItem from="1542687777337" duration="6964000" />
+      <workItem from="1542722005162" duration="126000" />
+      <workItem from="1544353116984" duration="13598000" />
+      <workItem from="1544491333358" duration="10582000" />
+      <workItem from="1544664669996" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -660,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542699251464</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Design Patterns Over">
+      <created>1542722081251</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1542722081251</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,36 +746,36 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="857828000" />
+    <option name="totallyTimeSpent" value="883244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.4061962" />
       <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" weight="0.3298969" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50774527" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.204236" />
+      <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="7" sideWeight="0.51462996" side_tool="true" weight="0.22995462" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.33907056" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32874355" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5886403" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.46735394" visible="true" weight="0.24054463" />
-      <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.47848538" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32874355" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -823,7 +873,8 @@
     <MESSAGE value="Interpreter" />
     <MESSAGE value="State" />
     <MESSAGE value="Chain Of Responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain Of Responsibility" />
+    <MESSAGE value="Design Patterns Over" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns Over" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,285 +937,27 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="261" />
+      <option name="time" value="262" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>args</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/command/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/iterator/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/iterator/IteratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/iterator/ListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/iterator/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/observer/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/observer/StockObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/observer/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/UnitedNations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/UnitedNationsSecurityConcil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="2" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/USA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/Iraq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/mediator/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/GameRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateCaretaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/RoleStateMemento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/memento/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="1966" selection-start-line="1966" selection-end-line="1966" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Scale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/interpreter/PlayContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/state/Work.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,10 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,10 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,20 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,12 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,10 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,10 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,12 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1322,12 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,10 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,10 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,12 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1377,6 +1105,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_01/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_01/MyThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_02/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_02/MyThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_03/MyThreadPrioriy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_04/ThreadSleepDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_05/ThreadMaemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_06/ThreadStopDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="731" lean-forward="true" selection-start-line="731" selection-end-line="731" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_07/ThreadRunable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_01/ccut_08/SellTicketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/StudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/GetThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/SetThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_01/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/GetThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/SetThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_02/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_03.java" />
+    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_02/ccut_03/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
