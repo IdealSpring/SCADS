@@ -2,27 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91af2cb1-75b5-4366-8d77-880658a37476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/AtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/CountdownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/DecorateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/MusicPhoneDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/OutputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/RingPhoneDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/WriteAndReadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIO2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/ChannelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/NonBlockingNIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/PathsAndFilesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_01/NetworkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_01/SendDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_01/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ChatRoomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_03/ClientSocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_03/ServerSocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/UploadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/UploadServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/array/ArrayList扩容原理.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/array/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/link/LinkDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/link/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/stack/StackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/other/EuclideanAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/other/OtherDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/other/SCRDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/search/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/search/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/AVLTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/AVLTreeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/BinarySearchTreeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/RedBlackTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/tree/RedBlackTreeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnJVM/src/cn/ccut/design/GCDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnJVM/src/cn/ccut/design/HeapOOM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/ArrayList扩容原理.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/MyArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/MyArrayList$Itr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/array/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/link/LinkDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/link/MyLinkedList$Itr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/link/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/arrayandlink/stack/StackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/other/EuclideanAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/other/RandomNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/ccut/algorithm/search/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJVM/cn/ccut/GCDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJVM/cn/ccut/HeapOOM$OOMObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJVM/cn/ccut/HeapOOM.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,20 +68,7 @@
     <favorites_list name="SCADS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PathsAndFilesDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/PathsAndFilesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,10 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bt</find>
-      <find>节</find>
-      <find>delete</find>
-      <find>preOrder</find>
       <find>putVal</find>
       <find>numLeft</find>
       <find>treeSuccessor</find>
@@ -92,6 +107,10 @@
       <find>HeapByteBuffer</find>
       <find>flip</find>
       <find>length</find>
+      <find>valueOf</find>
+      <find>compareTo</find>
+      <find>toArra</find>
+      <find>toArray</find>
     </findStrings>
     <replaceStrings>
       <replace>root</replace>
@@ -108,64 +127,63 @@
     <setting file="file://$PROJECT_DIR$/design_patterns/src/cn/ccut/design/composite/ConcreteCompany.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/HashMap.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/File.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/arrayandlink/link/MyLinkedList.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_10/MyLock.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/LockTest03.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_03/ccut_01/MyThread.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_03/ccut_04/StaticProxy.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_04/LambdaDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_04/SleepDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_04/YeildDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_04/JoinDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_04/SummaryDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_05/HappyCinema.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_05/CinemaDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_05/Web12306.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_05/Web12306Demo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_06/CooperationDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_06/CooperationDemo2.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_07/VolatileDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_07/DoubleCheckedLocking.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_07/CompareAndSwapDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/PipedDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/LockDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/LockTest01.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/LockTest02.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_08/LockTest03.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_09/ExecutorsDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_10/ReadFirstDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_10/MyLock.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_09/ReDemo01.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_10/AtomicIntegerDeo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/OptimisticLockDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/AtomicDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/InterruptedDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/CountdownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/设计模式.md" />
-        <option value="$PROJECT_DIR$/JDK1.8.0-src/src/java/io/File.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/FileDemo.java" />
-        <option value="$PROJECT_DIR$/copy.txt" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/OutputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Phone.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/IPhone.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Decorator.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/RingPhoneDecorator.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/MusicPhoneDecorator.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/DecorateDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Student.java" />
-        <option value="$PROJECT_DIR$/file.txt" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/WriteAndReadDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BufferDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_01/ServerDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_01/SendDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ChatRoomDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ClientThread.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/Demo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_02/ServerThread.java" />
         <option value="$PROJECT_DIR$/learnrecord/1.txt" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/ChannelDemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIODemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIO2Demo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/NonBlockingNIODemo.java" />
-        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/PathsAndFilesDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_03/ClientSocketDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_03/ServerSocketDemo.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/UploadClient.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/UploadServer.java" />
+        <option value="$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond02/day_04/Demo.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Studnet.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Student.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo02.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo03.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/java/lang/Object.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/Demo02.java" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/README.md" />
+        <option value="$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/DescreptionMD.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Bubble.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Bubble.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/Demo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/EuclideanAlgorithm.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/OtherDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/SCRDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/LinkDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/stack/StackDemo.java" />
       </list>
     </option>
   </component>
@@ -206,7 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,78 +235,54 @@
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ccut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ccut" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecond" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ccut" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecond" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCADS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCADS" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ccut" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrecond" type="462c0819:PsiDirectoryNode" />
-              <item name="day_13" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Bytebu&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;propertie&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Properties.java&#10;properties&#9;PSI&#9;JAVA://java.util.Properties&#10;bufferedinput&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;Fileoutputstrea&#9;PSI&#9;JAVA://java.io.FileOutputStream&#10;Reader&#9;PSI&#9;JAVA://java.io.Reader&#10;outputstrea&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;file&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/io/File.java&#10;File&#9;PSI&#9;JAVA://java.io.File&#10;Runtime&#9;PSI&#9;JAVA://java.lang.RuntimeException&#10;Exception&#9;PSI&#9;JAVA://java.lang.Exception&#10;Executors&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/Executors.java&#10;CountdownLatch&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;ConcurrentHashMap &#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashTable &#9;PSI&#9;JAVA://java.util.Hashtable&#10;ReentrantLock&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/locks/ReentrantLock.java&#10;abstractqueue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;AtomicReference&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicReference&#10;ThreadPoolExecutor&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/ThreadPoolExecutor.java&#10;executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;reentran&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/locks/ReentrantLock.java&#10;ReentrantReadWriteLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;atomici&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;threadlocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;TimerTask&#9;PSI&#9;JAVA://java.util.TimerTask&#10;queue&#9;PSI&#9;JAVA://java.util.Queue&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedHashSet&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;TreeMap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/TreeMap.java&#10;abstract&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;AbstractMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;Hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;remo&#9;PSI&#9;JAVA://java.rmi.Remote&#10;LruCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;HashMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LinkedHash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedHashMap.java&#10;Linked&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;hashmap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;Hashmap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;compa&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Runnable&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Runnable.java&#10;Thread&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Thread.java&#10;putall&#9;PSI&#9;JAVA://sun.security.action.PutAllAction&#10;hash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java" />
+    <property name="SearchEverywhereHistoryKey" value="arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;Integer&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Integer.java&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;In&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/lang/Integer.java&#10;Number&#9;PSI&#9;JAVA://java.lang.Number&#10;Bytebu&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;propertie&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/Properties.java&#10;properties&#9;PSI&#9;JAVA://java.util.Properties&#10;bufferedinput&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;Fileoutputstrea&#9;PSI&#9;JAVA://java.io.FileOutputStream&#10;Reader&#9;PSI&#9;JAVA://java.io.Reader&#10;outputstrea&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;file&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/io/File.java&#10;File&#9;PSI&#9;JAVA://java.io.File&#10;Runtime&#9;PSI&#9;JAVA://java.lang.RuntimeException&#10;Exception&#9;PSI&#9;JAVA://java.lang.Exception&#10;Executors&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/Executors.java&#10;CountdownLatch&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;ConcurrentHashMap &#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashTable &#9;PSI&#9;JAVA://java.util.Hashtable&#10;ReentrantLock&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/locks/ReentrantLock.java&#10;abstractqueue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;AtomicReference&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicReference&#10;ThreadPoolExecutor&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/ThreadPoolExecutor.java&#10;executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;reentran&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/concurrent/locks/ReentrantLock.java&#10;ReentrantReadWriteLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;atomici&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;threadlocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;TimerTask&#9;PSI&#9;JAVA://java.util.TimerTask&#10;queue&#9;PSI&#9;JAVA://java.util.Queue&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedHashSet&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;TreeMap&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/TreeMap.java&#10;abstract&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;AbstractMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/AbstractMap.java&#10;Hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;remo&#9;PSI&#9;JAVA://java.rmi.Remote&#10;LruCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;HashMap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LinkedHash&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/LinkedHashMap.java&#10;Linked&#9;FILE&#9;jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;hashmap&#9;FILE&#9;file://D:/idealU/deeplearning/SCADS/JDK1.8.0-src/src/java/util/HashMap.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SelectCource" />
+    <property name="last_opened_file_path" value="D:/jprofiler/install/jprofiler10/bin/jprofiler.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27471265" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS" />
       <recent name="D:\idealU\deeplearning\SCADS\learnrecord" />
       <recent name="D:\idealU\deeplearning\SCADS\src\cn\ccut\demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idealU\deeplearning\SCADS\learnJVM\src\cn\ccut\jvm\day_02" />
       <recent name="D:\idealU\deeplearning\SCADS\learnrecord" />
       <recent name="D:\idealU\deeplearning\SCADS" />
       <recent name="D:\idealU\deeplearning\SCADS\learnrecord\src\cn\ccut\template" />
       <recent name="D:\idealU\deeplearning\SCADS\learnrecord\src\cn\ccut" />
-      <recent name="D:\idealU\deeplearning\SCADS\learnrecord\src\cn\ccut\learnrecond\day_11" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.ccut.learnrecond.day_02.ccut_02" />
@@ -298,11 +292,11 @@
       <recent name="cn.ccut.facade" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.ccut.jvm.day_01" />
+      <recent name="cn.ccut.learnrecond02.day_02" />
       <recent name="cn.ccut.design.visitor" />
       <recent name="cn.ccut.design.cor" />
       <recent name="cn.ccut.design.state" />
-      <recent name="cn.ccut.mediator" />
-      <recent name="cn.ccut.prototype" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,112 +311,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PathsAndFilesDemo.test01">
-    <configuration name="NonBlockingNIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_13.NonBlockingNIODemo" />
-      <module name="learnrecord" />
+  <component name="RunManager">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.design.algorithm.sort.Demo" />
+      <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ccut.learnrecond.day_13.*" />
+          <option name="PATTERN" value="cn.ccut.design.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.ccut.jvm.day_01.Demo" />
+      <module name="learnJVM" />
+      <option name="VM_PARAMETERS" value="-XX:+HeapDumpOnOutOfMemoryError -Xms20m -Xmx20m" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ccut.jvm.day_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="NonBlockingNIODemo.client1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learnrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.learnrecond.day_13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ccut.learnrecond.day_13" />
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_13.NonBlockingNIODemo" />
-      <option name="METHOD_NAME" value="client1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="NonBlockingNIODemo.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learnrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.learnrecond.day_13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ccut.learnrecond.day_13" />
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_13.NonBlockingNIODemo" />
-      <option name="METHOD_NAME" value="server" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="NonBlockingNIODemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learnrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.learnrecond.day_13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ccut.learnrecond.day_13" />
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_13.NonBlockingNIODemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PathsAndFilesDemo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learnrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ccut.learnrecond.day_13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ccut.learnrecond.day_13" />
-      <option name="MAIN_CLASS_NAME" value="cn.ccut.learnrecond.day_13.PathsAndFilesDemo" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -462,20 +376,9 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="JUnit.NonBlockingNIODemo.server" />
-      <item itemvalue="JUnit.NonBlockingNIODemo.client1" />
-      <item itemvalue="JUnit.NonBlockingNIODemo.test" />
-      <item itemvalue="Application.NonBlockingNIODemo" />
-      <item itemvalue="JUnit.PathsAndFilesDemo.test01" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PathsAndFilesDemo.test01" />
-        <item itemvalue="Application.NonBlockingNIODemo" />
-        <item itemvalue="JUnit.NonBlockingNIODemo.server" />
-        <item itemvalue="JUnit.NonBlockingNIODemo.test" />
-        <item itemvalue="JUnit.NonBlockingNIODemo.client1" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -645,6 +548,27 @@
       <workItem from="1547550206983" duration="16018000" />
       <workItem from="1547622535146" duration="599000" />
       <workItem from="1547631307736" duration="1279000" />
+      <workItem from="1547691334077" duration="10209000" />
+      <workItem from="1547732607153" duration="479000" />
+      <workItem from="1547777526191" duration="5077000" />
+      <workItem from="1547792516307" duration="9733000" />
+      <workItem from="1547866504636" duration="1038000" />
+      <workItem from="1547979528769" duration="4778000" />
+      <workItem from="1547986708915" duration="4493000" />
+      <workItem from="1548038677610" duration="2813000" />
+      <workItem from="1548065695932" duration="2777000" />
+      <workItem from="1548121690670" duration="755000" />
+      <workItem from="1548161036998" duration="967000" />
+      <workItem from="1548556841508" duration="689000" />
+      <workItem from="1548569830326" duration="1166000" />
+      <workItem from="1548646263390" duration="615000" />
+      <workItem from="1548729170331" duration="616000" />
+      <workItem from="1548744338759" duration="1094000" />
+      <workItem from="1548751761801" duration="582000" />
+      <workItem from="1549708994859" duration="1927000" />
+      <workItem from="1549973102662" duration="4116000" />
+      <workItem from="1550044187411" duration="2962000" />
+      <workItem from="1550278662499" duration="15748000" />
     </task>
     <task id="LOCAL-00001" summary="see source code for TreeMap in JDK1.8">
       <created>1541207666086</created>
@@ -821,43 +745,50 @@
       <option name="project" value="LOCAL" />
       <updated>1546315079475</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="complete IO and NIO &#10;time:2019年1月17日10:16:30">
+      <created>1547691445152</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547691445153</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NonBlockingNIODemo_client1 - 2019.01.16 at 12h 07m 09s.xml">
-      <configuration name="NonBlockingNIODemo.client1" configurationId="JUnit" />
+    <history-entry file="NetworkDemo_server - 2019.01.17 at 16h 40m 49s.xml">
+      <configuration name="NetworkDemo.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_server - 2019.01.16 at 12h 07m 09s.xml">
-      <configuration name="NonBlockingNIODemo.server" configurationId="JUnit" />
+    <history-entry file="NetworkDemo_client - 2019.01.17 at 16h 41m 14s.xml">
+      <configuration name="NetworkDemo.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_server - 2019.01.16 at 12h 08m 31s.xml">
-      <configuration name="NonBlockingNIODemo.server" configurationId="JUnit" />
+    <history-entry file="NetworkDemo_server - 2019.01.17 at 16h 41m 14s.xml">
+      <configuration name="NetworkDemo.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_client1 - 2019.01.16 at 12h 08m 31s.xml">
-      <configuration name="NonBlockingNIODemo.client1" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 20m 25s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_test - 2019.01.16 at 12h 09m 52s.xml">
-      <configuration name="NonBlockingNIODemo.test" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 21m 09s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_server - 2019.01.16 at 12h 11m 40s.xml">
-      <configuration name="NonBlockingNIODemo.server" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 21m 45s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBlockingNIODemo_server - 2019.01.16 at 12h 14m 08s.xml">
-      <configuration name="NonBlockingNIODemo.server" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 24m 02s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathsAndFilesDemo_test01 - 2019.01.16 at 17h 43m 45s.xml">
-      <configuration name="PathsAndFilesDemo.test01" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 24m 19s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathsAndFilesDemo_test01 - 2019.01.16 at 17h 46m 05s.xml">
-      <configuration name="PathsAndFilesDemo.test01" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.27 at 14h 29m 13s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathsAndFilesDemo_test01 - 2019.01.16 at 17h 46m 43s.xml">
-      <configuration name="PathsAndFilesDemo.test01" configurationId="JUnit" />
+    <history-entry file="Demo02_test01 - 2019.01.29 at 16h 46m 56s.xml">
+      <configuration name="Demo02.test01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1057037000" />
+    <option name="totallyTimeSpent" value="1129671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -881,17 +812,17 @@
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5301205" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4664372" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4698795" visible="true" weight="0.18078668" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4698795" visible="true" weight="0.2549168" />
       <window_info id="JRebel" order="3" sideWeight="0.48537004" side_tool="true" weight="0.22314675" />
+      <window_info anchor="bottom" id="JProfiler" order="14" weight="0.47332186" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.51979345" side_tool="true" weight="0.27987897" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32702237" />
     </layout>
@@ -987,7 +918,8 @@
     <MESSAGE value="Design Patterns Over" />
     <MESSAGE value="Multithreading" />
     <MESSAGE value="long time, optimism lock and pessimistic lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="long time, optimism lock and pessimistic lock" />
+    <MESSAGE value="complete IO and NIO &#10;time:2019年1月17日10:16:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete IO and NIO &#10;time:2019年1月17日10:16:30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,11 +984,17 @@
           <properties />
           <option name="timeStamp" value="270" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Integer.java</url>
+          <line>1215</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="273" />
+      <option name="time" value="274" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1073,338 +1011,338 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/net/URI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/WinNTFileSystem.java">
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/day_01/cn/ccut/jvm.java" />
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02.java" />
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/io/FileSystem.java">
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="81">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/java_pid9328.hprof.analysis/backref.dat" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_01/Demo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="3166" column="25" selection-start-line="3166" selection-start-column="25" selection-end-line="3166" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/Demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="135">
+            <caret line="5" column="11" selection-end-line="13" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="415" column="31" lean-forward="true" selection-start-line="415" selection-start-column="31" selection-end-line="415" selection-end-column="31" />
+    <entry file="file://$PROJECT_DIR$/learnJVM/src/cn/ccut/jvm/day_02/DescreptionMD.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="23" column="6" selection-end-line="66" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1284" column="4" lean-forward="true" selection-start-line="1284" selection-start-column="4" selection-end-line="1284" selection-end-column="4" />
+        <state relative-caret-position="184">
+          <caret line="1233" column="32" lean-forward="true" selection-start-line="1233" selection-start-column="32" selection-end-line="1233" selection-end-column="32" />
+          <folding>
+            <element signature="e#46394#46395#0" expanded="true" />
+            <element signature="e#46458#46459#0" expanded="true" />
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/template/template-dao/src/main/java/cn/ccut/template/log/dao/LogMapper.java" />
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/template/day_01_Java课程设计/JAVA实验指导/calculate/operations/COperation.java" />
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/InputStream.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="362" column="19" selection-start-line="362" selection-start-column="19" selection-end-line="362" selection-end-column="19" />
+        <state relative-caret-position="342">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/io/Flushable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_11/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/learnrecord.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/BufferedInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/IPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/RingPhoneDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/MusicPhoneDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/DecorateDemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/OutputStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="501">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copy.txt" />
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        <state relative-caret-position="157">
+          <caret line="169" column="19" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="485" column="26" selection-start-line="485" selection-start-column="19" selection-end-line="485" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/design/algorithm/sort/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/sort/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/Student.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state>
+          <caret selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Hashtable.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/AVLTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="456" column="26" selection-start-line="456" selection-start-column="26" selection-end-line="456" selection-end-column="26" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/util/Properties.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file.txt" />
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_12/WriteAndReadDemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/util/Objects.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/RedBlackTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/nio/Buffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8802">
-          <caret line="355" column="28" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="28" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/nio/HeapByteBuffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/nio/Buffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/nio/ByteBuffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8505">
-          <caret line="344" column="34" selection-start-line="344" selection-start-column="28" selection-end-line="344" selection-end-column="34" />
+        <state>
+          <caret selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/VM.class">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/EuclideanAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state>
+          <caret selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/nio/DirectByteBuffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/OtherDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JDK/Install8/jdk1.8.0_181/src.zip!/java/nio/ByteBuffer.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/other/SCRDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7614">
-          <caret line="310" column="25" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK1.8.0-src/src/java/nio/channels/Channel.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/array/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/1.txt" />
-    <entry file="file://$PROJECT_DIR$/learnrecord/2.txt" />
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/LinkDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/ChannelDemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/link/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIODemo.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/cn/ccut/algorithm/arrayandlink/stack/StackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/dest.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/NonBlockingNIODemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/BlockNIO2Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnrecord/src/cn/ccut/learnrecond/day_13/PathsAndFilesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
