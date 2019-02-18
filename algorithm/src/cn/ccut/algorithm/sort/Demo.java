@@ -9,8 +9,8 @@ import java.util.Arrays;
  *      3.插入排序
  *      4.快速排序
  *      5.希尔排序
- *      6.归并排序-
- *      7.堆排序-
+ *      6.归并排序
+ *      7.堆排序
  */
 public class Demo {
     public static void main(String[] args) {
@@ -29,7 +29,14 @@ public class Demo {
 //        new QuickSort<Integer>().sort(array);
 
         // 希尔排序
-        new ShellSort<Integer>().sort(array);
+//        new ShellSort<Integer>().sort(array);
+
+        // 归并排序
+//        new MergeSort<Integer>().sort(array);
+
+        // 堆排序
+        array[0] = null;
+        new HeapSort<Integer>().sort(array);
 
         System.out.println(Arrays.toString(array));
     }
