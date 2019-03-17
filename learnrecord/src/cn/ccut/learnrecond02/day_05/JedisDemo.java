@@ -10,6 +10,12 @@ import java.util.Set;
 
 public class JedisDemo {
     @Test
+    public void test02() {
+        Jedis jedis = new Jedis("111.116.20.105", 6379);
+        System.out.println(jedis.setnx("mutex_key", "666"));
+    }
+
+    @Test
     public void test() {
         Jedis jedis = new Jedis("127.0.0.1", 6379);
 

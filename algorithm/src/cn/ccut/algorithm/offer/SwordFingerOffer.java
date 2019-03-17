@@ -12,8 +12,647 @@ public class SwordFingerOffer {
     public static void main(String[] args) {
         SwordFingerOffer offer = new SwordFingerOffer();
 
-        offer.printlToMaxOfDigit(3);
+//        int[] ar = {1, 3, 2};
+//        int[] ar = {5,7,6,9,11,10,8};
+        int[] ar = {4,8,6,12,16,14,10};
+        System.out.println(offer.VerifySquenceOfBST(ar));
+    }
 
+    /**
+     * 35. 复杂链表的复制
+     *
+     * @param pHead
+     * @return
+     */
+    public RandomListNode Clone(RandomListNode pHead) {
+        if (pHead == null)
+            return null;
+
+        RandomListNode front = pHead;
+        while (front != null) {
+            RandomListNode copyNode = new RandomListNode(front.label);
+            copyNode.next = front.next;
+            front.next = copyNode;
+
+            front = copyNode.next;
+        }
+
+        front = pHead;
+        while (front != null) {
+            if (front.random != null) {
+                front.next.random = front.random.next;
+            }
+
+            front = front.next.next;
+        }
+
+        RandomListNode copyHead = pHead.next;
+        front = pHead;
+        while (front.next != null) {
+            RandomListNode next = front.next;
+            front.next = next.next;
+
+            front = next;
+        }
+
+        return copyHead;
+    }
+
+    public class RandomListNode {
+        int label;
+        RandomListNode next = null;
+        RandomListNode random = null;
+
+        RandomListNode(int label) {
+            this.label = label;
+        }
+    }
+
+    /**
+     * 34. 二叉树中和为某一值的路径
+     * 解题思路：
+     *
+     *
+     */
+    private ArrayList<ArrayList<Integer>> ret = new ArrayList<>();
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+        if (root == null || target <= 0)
+            return ret;
+
+        FindPath(root, target, new ArrayList<>());
+        return ret;
+    }
+
+    public void FindPath(TreeNode node, int target, ArrayList<Integer> path) {
+        if (node == null)   // 用于到达叶子结点，且这条路径上的和不等于目标值
+            return;
+
+        target -= node.val;
+        path.add(node.val);
+
+        if (node.left == null && node.right == null && target == 0) {
+            ret.add(new ArrayList<>(path));
+        } else {
+            FindPath(node.left, target, path);
+            FindPath(node.right, target, path);
+        }
+
+        path.remove(path.size() - 1);
+    }
+
+    /**
+     * 33. 二叉搜索树的后序遍历序列
+     *
+     * @param sequence
+     * @return
+     */
+    public boolean VerifySquenceOfBST(int [] sequence) {
+        // 有效性检查
+        if (sequence == null || sequence.length == 0)
+            return false;
+        int firstIndex = 0, lastIndex = sequence.length - 1;
+        return verify(sequence, firstIndex, lastIndex);
+    }
+
+    private boolean verify(int[] sequence, int firstIndex, int lastIndex) {
+        if (lastIndex - firstIndex <= 1)    // 就有两个，不管怎么排序，都行
+            return true;
+
+        int rootVal = sequence[lastIndex];
+        int cutIndex = firstIndex;
+
+        while (cutIndex < lastIndex && sequence[cutIndex] < rootVal)
+            cutIndex++;
+
+        for (int i = cutIndex; i < lastIndex; i++) {
+            if (sequence[i] < rootVal)
+                return false;
+        }
+
+        return verify(sequence, firstIndex, cutIndex - 1) && verify(sequence, cutIndex, lastIndex - 1);
+    }
+
+    /**
+     * 32.3 按之字形顺序打印二叉树
+     *
+     * @param root
+     * @return
+     */
+//    public ArrayList<ArrayList<Integer> > Print(TreeNode root) {
+//        ArrayList<ArrayList<Integer>> ret = new  ArrayList<>();
+//        Queue<TreeNode> queue = new LinkedList<>();
+//
+//        if (root == null)
+//            return ret;
+//
+//        queue.add(root);
+//        boolean flog = false;
+//        while (!queue.isEmpty()) {
+//            int size = queue.size();
+//            ArrayList<Integer> list = new ArrayList<>();
+//            while (size-- > 0) {
+//                TreeNode tree = queue.poll();
+//                list.add(tree.val);
+//
+//                if (tree.left != null)
+//                    queue.add(tree.left);
+//                if (tree.right != null)
+//                    queue.add(tree.right);
+//            }
+//
+//            if (flog)
+//                Collections.reverse(list);
+//            flog = !flog;
+//
+//            if (list.size() != 0)
+//            ret.add(list);
+//        }
+//
+//        return ret;
+//    }
+
+    /**
+     * 32.2 把二叉树打印成多行
+     *
+     * @param root
+     * @return
+     */
+    ArrayList<ArrayList<Integer>> Print(TreeNode root) {
+        ArrayList<ArrayList<Integer>> ret = new  ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        if (root == null)
+            return ret;
+
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            ArrayList<Integer> list = new ArrayList<>();
+            while (size-- > 0) {
+                TreeNode tree = queue.poll();
+                list.add(tree.val);
+
+                if (tree.left != null)
+                    queue.add(tree.left);
+                if (tree.right != null)
+                    queue.add(tree.right);
+            }
+
+            if (list.size() != 0)
+                ret.add(list);
+        }
+
+        return ret;
+    }
+
+    /**
+     * 32.1 从上往下打印二叉树
+     *
+     * @param root
+     * @return
+     */
+    public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+        ArrayList<Integer> ret = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        if (root == null)
+            return ret;
+
+        queue.add(root);
+        TreeNode temp;
+
+        while (!queue.isEmpty()) {
+            temp = queue.poll();
+            ret.add(temp.val);
+
+            if (temp.left != null)
+                queue.add(temp.left);
+            if (temp.right != null)
+                queue.add(temp.right);
+
+        }
+
+        return ret;
+    }
+
+    /**
+     * 31. 栈的压入、弹出序列
+     * 解题思路：
+     * 循环遍历将输入序列中数据接入栈中
+     *      每向栈中压入一个数据后，比较栈顶数据是否与弹出序列要求元素相等
+     *      如果相等，弹出栈顶元素，序列要求元素指针向下移动
+     *
+     * @param pushA
+     * @param popA
+     * @return
+     */
+    public boolean IsPopOrder(int [] pushA,int [] popA) {
+        Stack<Integer> stack = new Stack<>();
+
+        for (int pushIndex = 0, popIndex = 0; pushIndex < pushA.length; pushIndex++) {
+            stack.push(pushA[pushIndex]);
+
+            while (popIndex < popA.length && popA[popIndex] == stack.peek()) {
+                stack.pop();
+                popIndex++;
+            }
+        }
+
+        return stack.isEmpty();
+    }
+
+    /**
+     * 30. 包含 min 函数的栈
+     */
+    /*
+    private Stack<Integer> dataStack = new Stack<>();
+    private Stack<Integer> minStack = new Stack<>();
+
+    public void push(int node) {
+        dataStack.push(node);
+        // minStack.push(minStack.isEmpty() ? node : minStack.pop() > node ?);
+        minStack.push(minStack.isEmpty() ? node : Math.min(minStack.peek(), node));
+    }
+
+    public void pop() {
+        dataStack.pop();
+        minStack.pop();
+    }
+
+    public int top() {
+        return dataStack.peek();
+    }
+
+    public int min() {
+        return minStack.peek();
+    }
+*/
+    /**
+     * 29. 顺时针打印矩阵
+     *
+     * @param matrix
+     * @return
+     */
+    public ArrayList<Integer> printMatrix(int [][] matrix) {
+        ArrayList<Integer> result = new ArrayList<>();
+        int r1 = 0, r2 = matrix.length - 1, c1 = 0, c2 = matrix[0].length - 1;
+
+        while (r1 <= r2 && c1 <= c2) {
+            for (int i = c1; i <= c2; i++)
+                result.add(matrix[r1][i]);
+
+            for (int i = r1 + 1; i <= r2; i++)
+                result.add(matrix[i][c2]);
+
+            if (r1 != r2)
+                for (int i = c2 - 1; i >= c1; i--)
+                    result.add(matrix[r2][i]);
+
+            if (c1 != c2)
+                for (int i = r2 - 1; i > r1; i--)
+                    result.add(matrix[i][c1]);
+
+            r1++; r2--; c1++; c2--;
+        }
+
+        return result;
+    }
+
+    /**
+     * 28 对称的二叉树
+     * 解题思路：
+     *      使用递归方法实现(结束条件，镜像对称侧都到达底部)
+     *
+     * @param pRoot
+     * @return
+     */
+    boolean isSymmetrical(TreeNode pRoot) {
+        if (pRoot == null)
+            return true;
+
+        return isSymmetrical(pRoot.left, pRoot.right);
+    }
+
+    private boolean isSymmetrical(TreeNode left, TreeNode right) {
+        if (left == null && right == null)
+            return true;
+        if (left == null || right == null)
+            return false;
+        if (left.val != right.val)
+            return false;
+
+        return isSymmetrical(left.left, right.right) && isSymmetrical(left.right, right.left);
+    }
+
+    /**
+     * 27. 二叉树的镜像
+     * 解题思路：
+     *      从根节点开始递归内个节点，交换节点的左右子节点(节点不存在时候返回)
+     *
+     * @param root
+     */
+    public void Mirror(TreeNode root) {
+        if (root == null)
+            return;
+
+        swap(root);
+        Mirror(root.left);
+        Mirror(root.right);
+    }
+
+    private void swap(TreeNode root) {
+        TreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+    }
+
+    /**
+     * 26. 树的子结构
+     * 解题思路：
+     *      先使用递归找到与子树值相同的节点
+     *      使用递归判断每个字数节点的值
+     *
+     * @param root1
+     * @param root2
+     * @return
+     */
+    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+        boolean result = false;
+
+        if (root1 != null && root2 != null) {
+            if (root1.val == root2.val)
+                result = isSubtree(root1, root2);
+            if (!result)
+                result = HasSubtree(root1.left, root2);
+            if (!result)
+                result = HasSubtree(root1.right, root2);
+        }
+
+        return result;
+    }
+
+    private boolean isSubtree(TreeNode root1,TreeNode root2) {
+        if (root1 == null && root2 != null)
+            return false;
+        if (root2 == null)
+            return true;
+        if (root1.val != root2.val)
+            return false;
+        return isSubtree(root1.left, root2.left) && isSubtree(root1.right, root2.right);
+    }
+
+    /**
+     * 25. 合并两个排序的链表
+     * 解题思路：
+     *      使用递归解决问题
+     *      先对特殊数据情况及临界状态进行检测
+     *      递归判断出大小并返回
+     *
+     * @param list1
+     * @param list2
+     * @return
+     */
+    public ListNode Merge(ListNode list1,ListNode list2) {
+        if (list1 == null && list2 == null)
+            return null;
+        if (list1 == null && list2 != null)
+            return list2;
+        if (list1 != null && list2 == null)
+            return list1;
+
+        if (list1.val < list2.val) {
+            list1.next = Merge(list1.next, list2);
+            return list1;
+        } else {
+            list2.next = Merge(list1, list2.next);
+            return list2;
+        }
+    }
+
+    /**
+     * 24. 反转链表
+     *
+     * 思路：
+     *      先创建一个新头结点
+     *      将链中的头结点取下来
+     *      使用头插法将取下来的链插入到新头结点后
+     *
+     * @param head
+     * @return
+     */
+    public ListNode ReverseList(ListNode head) {
+        if (head == null)
+            return null;
+
+        ListNode preResult = new ListNode(-1);
+        ListNode index = head;
+        ListNode next;
+
+        while (index != null) {
+            next = index.next;
+            index.next = preResult.next;
+            preResult.next = index;
+            index = next;
+        }
+
+        return preResult.next;
+    }
+
+    /**
+     * 23. 链表中环的入口结点
+     *
+     * @param pHead
+     * @return
+     */
+    public ListNode EntryNodeOfLoop(ListNode pHead) {
+        if (pHead == null || pHead.next == null)
+            return null;
+
+        ListNode fast = pHead, slow = pHead;
+        do {
+            fast = fast.next.next;
+            slow = slow.next;
+        } while (fast != slow);
+
+        fast = pHead;
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return fast;
+    }
+
+    /**
+     * 22. 链表中倒数第 K 个结点
+     *
+     * @param head
+     * @param k
+     * @return
+     */
+    public ListNode FindKthToTail(ListNode head,int k) {
+        if (head == null || k == 0)
+            return null;
+
+        ListNode rear = head;
+        while (rear != null && k-- > 0)
+            rear = rear.next;
+
+        if (k > 0)
+            return null;
+
+        ListNode front = head;
+
+        while (rear != null) {
+            rear = rear.next;
+            front = front.next;
+        }
+
+        return front;
+    }
+
+    /**
+     * 21. 调整数组顺序使奇数位于偶数前面
+     *
+     * @param array
+     */
+    public void reOrderArray(int [] array) {
+        if (array == null || array.length == 0) {
+            return;
+        }
+
+        int oddCount = 0;
+        for (int n : array)
+            if (n % 2 == 1)
+                oddCount++;
+
+        int[] copys = array.clone();
+        int i = 0, j = oddCount;
+        for (int copy : copys) {
+            if (copy % 2 == 1)
+                array[i++] = copy;
+            else
+                array[j++] = copy;
+        }
+    }
+
+    /**
+     * 20. 表示数值的字符串
+     *
+     * @param str
+     * @return
+     */
+    public boolean isNumeric(char[] str) {
+        if (str == null || str.length == 0)
+            return false;
+
+        return new String(str).matches("[+-]?\\d*(\\.\\d+)?([eE][+-]?\\d+)?");
+    }
+
+    /**
+     * 19. 正则表达式匹配
+     *
+     * @param str
+     * @param pattern
+     * @return
+     */
+    public boolean match(char[] str, char[] pattern) {
+        if (str == null || pattern == null)
+            return false;
+
+        int strIndex = 0, patternIndex = 0;
+        return match(str, strIndex, pattern, patternIndex);
+    }
+
+    private boolean match(char[] str, int strIndex, char[] pattern, int patternIndex) {
+        // 有效性检测：str到尾，pattern到尾，匹配成功
+        if (strIndex == str.length && patternIndex == pattern.length)
+            return true;
+        // 有效性检测：pattern先到尾，匹配失败
+        if (strIndex != str.length && patternIndex == pattern.length)
+            return false;
+
+        // 模式第二个字符是'*'
+        if (patternIndex + 1 < pattern.length && pattern[patternIndex + 1] == '*') {
+            // 字符串第一个字符和模式第一个字符匹配；有三种情况
+            if (strIndex != str.length && (str[strIndex] == pattern[patternIndex] || pattern[patternIndex] == '.')){
+                return match(str, strIndex, pattern, patternIndex + 2) // 模式后移2位（即x*匹配0个字符）
+                        || match(str, strIndex + 1, pattern, patternIndex + 2) // 模式后移2位(即x*匹配1个字符)
+                        || match(str, strIndex + 1, pattern, patternIndex); //*匹配一个，再匹配str下一个
+            } else { // *模式不匹配，直接后移2位
+                return match(str, strIndex, pattern, patternIndex + 2);
+            }
+        }
+
+        // 模式第二个字符不是'*'，且字符串第一个和模式第一个匹配；否则直接返回false
+        if (strIndex != str.length && (str[strIndex] == pattern[patternIndex] || pattern[patternIndex] == '.')) {
+            return match(str, strIndex + 1, pattern, patternIndex + 1);
+        }
+
+        return false;
+    }
+
+    /**
+     * 18.2 删除链表中重复的结点
+     *
+     * @param pHead
+     * @return
+     */
+    public ListNode deleteDuplication(ListNode pHead) {
+        if (pHead == null)
+            return null;
+
+        ListNode resultNode = new ListNode(1);
+        resultNode.next = pHead;
+
+        ListNode front = resultNode;
+        ListNode rear = pHead;
+        while (rear != null) {
+            if (rear.next != null && rear.val == rear.next.val) {
+                while (rear.next != null && rear.val == rear.next.val)
+                    rear = rear.next;
+
+                rear = rear.next;
+                front.next = rear;
+            } else {
+                front = front.next;
+                rear = rear.next;
+            }
+        }
+
+        return resultNode.next;
+    }
+
+    /**
+     * 18.1 在 O(1) 时间内删除链表节点
+     *
+     * @param head
+     * @param tobeDelete
+     * @return
+     */
+    public ListNode deleteNode(ListNode head, ListNode tobeDelete) {
+        // 参数校验
+        if (head == null || tobeDelete == null)
+            return null;
+
+        if (tobeDelete.next != null) {  // 不是尾节点情况
+            ListNode nextNode = tobeDelete.next;
+            tobeDelete.val = nextNode.val;
+            tobeDelete.next = nextNode.next;
+            nextNode.next = null;
+        } else {    // 是尾节点情况
+            if (head == tobeDelete) {
+                head = null;
+            } else {
+                while (head.next != tobeDelete)
+                    head = head.next;
+
+                head.next = null;
+            }
+        }
+
+        return head;
     }
 
     /**
@@ -31,7 +670,7 @@ public class SwordFingerOffer {
 
     private void printlToMaxOfDigit(char[] number, int index) {
         if (index == number.length) {
-            printNumber(number);
+            prittDigit(number);
             return;
         }
 
@@ -41,11 +680,10 @@ public class SwordFingerOffer {
         }
     }
 
-    private void printNumber(char[] number) {
+    private void prittDigit(char[] number) {
         int index = 0;
-        while (index < number.length && number[index] == '0')
+        while (number.length > index && number[index] == '0')
             index++;
-
         while (index < number.length)
             System.out.print(number[index++]);
         System.out.println();
@@ -92,7 +730,8 @@ public class SwordFingerOffer {
 
     /**
      * 14. 剪绳子
-     *  贪心算法实现
+     * 贪心算法实现
+     *
      * @param n
      * @return
      */
@@ -120,7 +759,7 @@ public class SwordFingerOffer {
      * @return
      */
     public int movingCount(int threshold, int rows, int cols) {
-        if (threshold <= 0 || rows <= 0 || cols <=0)
+        if (threshold <= 0 || rows <= 0 || cols <= 0)
             return 0;
 
         boolean[][] visited = new boolean[rows][cols];
@@ -173,6 +812,7 @@ public class SwordFingerOffer {
     private final int[][] next = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     private int rows;
     private int cols;
+
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
         // 参数校验
         if (rows == 0 || cols == 0)
@@ -224,7 +864,7 @@ public class SwordFingerOffer {
      * @return
      */
     public int minNumberInRotateArray(int[] array) {
-        if(array == null || array.length == 0)
+        if (array == null || array.length == 0)
             return 0;
 
         int low = 0, height = array.length - 1;
@@ -368,7 +1008,8 @@ public class SwordFingerOffer {
      * @return
      */
     private HashMap<Integer, Integer> indexForInOrders = new HashMap<>();
-    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+
+    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
         for (int i = 0; i < in.length; i++)
             indexForInOrders.put(in[i], i);
 
@@ -376,11 +1017,10 @@ public class SwordFingerOffer {
     }
 
     /**
-     *
-     * @param pre   前序遍历数组
-     * @param preL  左索引
-     * @param preR  右索引
-     * @param inL   中序遍历的左侧
+     * @param pre  前序遍历数组
+     * @param preL 左索引
+     * @param preR 右索引
+     * @param inL  中序遍历的左侧
      * @return
      */
     private TreeNode reConstructBinaryTree(int[] pre, int preL, int preR, int inL) {
@@ -402,7 +1042,10 @@ public class SwordFingerOffer {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     /**
@@ -437,19 +1080,19 @@ public class SwordFingerOffer {
 
     /**
      * 5.替换空格
-     *
+     * <p>
      * 将一个字符串中的空格替换成 "%20"。
-     *
+     * <p>
      * Input:
      * "A B"
-     *
+     * <p>
      * Output:
      * "A%20B"
      *
      * @param str
      * @return
      */
-    public String replaceSpace(StringBuffer  str) {
+    public String replaceSpace(StringBuffer str) {
         if (str.length() == 0)
             return "";
 
@@ -529,9 +1172,9 @@ public class SwordFingerOffer {
     /**
      * 交换元素位置
      *
-     * @param nums  数组
-     * @param i 待交换元素
-     * @param j 待交换元素
+     * @param nums 数组
+     * @param i    待交换元素
+     * @param j    待交换元素
      */
     private void swap(int[] nums, int i, int j) {
 
